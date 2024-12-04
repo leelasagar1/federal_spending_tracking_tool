@@ -1,16 +1,9 @@
 import requests
 import boto3
 from bs4 import BeautifulSoup
-# from helper import get_client
+from helpers import get_client
 # from plugins.s3_utils import get_client
 
-def get_client(service):
-    return boto3.client(
-        service,
-        region_name='us-east-2',
-        aws_access_key_id='AKIA4SDNVR3XMKN34QEB',
-        aws_secret_access_key='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'
-    )
 
 
 # Configure S3 client
