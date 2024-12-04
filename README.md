@@ -60,11 +60,7 @@ Effortlessly manage complex ETL workflows with this project designed to extract,
    git clone https://github.com/leelasagar1/federal_spending_tracking_tool.git
    cd federal_spending_tracking_tool
    ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Configure AWS credentials: Update the config/aws_config.json file with your AWS details:
+2. Configure AWS credentials: Update the config/aws_config.json file with your AWS details:
    ```bash
       {
          "aws_access_key_id": "ADD AWS ACCESS KEY",
@@ -72,13 +68,11 @@ Effortlessly manage complex ETL workflows with this project designed to extract,
          "region_name": "ADD REGION"
       }
    ```
-4. Set up Apache Airflow using Docker Compose:
+3. Set up Apache Airflow using Docker Compose:
    ```bash
    docker-compose up
    ```
 
-### Configuration
-- Update the `config/config.json` file with relevant settings like S3 bucket names, API endpoints, and AWS credentials.
 
 ### Running the Pipelines
 - To trigger the pipelines manually, go to the Airflow web UI (usually accessible at `http://localhost:8080`) and enable the DAGs as needed.
