@@ -1,6 +1,6 @@
 # Python Bytecode
 *.py[cod]
-__pycache__/
+**/__pycache__/
 
 # Environment files
 .env
@@ -69,4 +69,4 @@ coverage/
 plugins/
 
 # Ignore sensitive data
-*.ipynb
+**/*.ipynb
