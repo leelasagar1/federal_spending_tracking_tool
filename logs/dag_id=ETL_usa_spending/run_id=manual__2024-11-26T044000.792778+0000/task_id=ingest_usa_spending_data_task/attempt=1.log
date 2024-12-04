@@ -1,0 +1,46 @@
+[2024-11-26T04:40:08.863+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-26T04:40:08.882+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_usa_spending.ingest_usa_spending_data_task manual__2024-11-26T04:40:00.792778+00:00 [queued]>
+[2024-11-26T04:40:08.892+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_usa_spending.ingest_usa_spending_data_task manual__2024-11-26T04:40:00.792778+00:00 [queued]>
+[2024-11-26T04:40:08.893+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-26T04:40:08.909+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): ingest_usa_spending_data_task> on 2024-11-26 04:40:00.792778+00:00
+[2024-11-26T04:40:08.921+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=11382) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-26T04:40:08.923+0000] {standard_task_runner.py:72} INFO - Started process 11390 to run task
+[2024-11-26T04:40:08.921+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_usa_spending', 'ingest_usa_spending_data_task', 'manual__2024-11-26T04:40:00.792778+00:00', '--job-id', '340', '--raw', '--subdir', 'DAGS_FOLDER/project_dag.py', '--cfg-path', '/tmp/tmpf27armz_']
+[2024-11-26T04:40:08.924+0000] {standard_task_runner.py:105} INFO - Job 340: Subtask ingest_usa_spending_data_task
+[2024-11-26T04:40:08.975+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_usa_spending.ingest_usa_spending_data_task manual__2024-11-26T04:40:00.792778+00:00 [running]> on host 6a246d8d590f
+[2024-11-26T04:40:09.293+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETL_usa_spending' AIRFLOW_CTX_TASK_ID='ingest_usa_spending_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-11-26T04:40:00.792778+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-26T04:40:00.792778+00:00'
+[2024-11-26T04:40:09.294+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-26T04:40:09.900+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into agencies
+[2024-11-26T04:40:10.256+0000] {logging_mixin.py:190} INFO - Ingesting new data into agencies
+[2024-11-26T04:40:10.555+0000] {logging_mixin.py:190} INFO - Data successfully written to table agencies.
+[2024-11-26T04:40:10.762+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/usa_spending_data/agency_20241123_083458.csv to s3://project-processed-data/archived/usa_spending_data/agency_20241123_083458.csv
+[2024-11-26T04:40:10.919+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into subagency
+[2024-11-26T04:40:11.182+0000] {logging_mixin.py:190} INFO - Ingesting new data into subagency
+[2024-11-26T04:40:11.460+0000] {logging_mixin.py:190} INFO - Error: value too long for type character varying(20)
+[2024-11-26T04:40:11.828+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into grants
+[2024-11-26T04:40:12.140+0000] {logging_mixin.py:190} INFO - Ingesting new data into grants
+[2024-11-26T04:40:12.433+0000] {logging_mixin.py:190} INFO - Error: column "public_law_number" of relation "grants" does not exist
+LINE 1: ...al_obligated, description, award_type, def_codes, public_law...
+                                                             ^
+[2024-11-26T04:40:12.866+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into funding
+[2024-11-26T04:40:13.248+0000] {logging_mixin.py:190} INFO - Ingesting new data into funding
+[2024-11-26T04:40:13.664+0000] {logging_mixin.py:190} INFO - Error: insert or update on table "funding" violates foreign key constraint "funding_grant_id_fkey"
+DETAIL:  Key (grant_id)=(B-18-DP-72-0002) is not present in table "grants".
+[2024-11-26T04:40:14.035+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into federalawards
+[2024-11-26T04:40:14.324+0000] {logging_mixin.py:190} INFO - Ingesting new data into federalawards
+[2024-11-26T04:40:14.609+0000] {logging_mixin.py:190} INFO - Error: insert or update on table "federalawards" violates foreign key constraint "federalawards_grant_id_fkey"
+DETAIL:  Key (grant_id)=(B-18-DP-72-0002) is not present in table "grants".
+[2024-11-26T04:40:15.056+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into transactions
+[2024-11-26T04:40:15.391+0000] {logging_mixin.py:190} INFO - Ingesting new data into transactions
+[2024-11-26T04:40:15.671+0000] {logging_mixin.py:190} INFO - Error: insert or update on table "transactions" violates foreign key constraint "transactions_grant_id_fkey"
+DETAIL:  Key (grant_id)=(B-18-DP-72-0002) is not present in table "grants".
+[2024-11-26T04:40:15.958+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into subawards
+[2024-11-26T04:40:16.230+0000] {logging_mixin.py:190} INFO - Ingesting new data into subawards
+[2024-11-26T04:40:16.516+0000] {logging_mixin.py:190} INFO - Error: insert or update on table "subawards" violates foreign key constraint "subawards_grant_id_fkey"
+DETAIL:  Key (grant_id)=(B-18-DP-72-0002) is not present in table "grants".
+[2024-11-26T04:40:16.517+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-26T04:40:16.527+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-26T04:40:16.528+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_usa_spending, task_id=ingest_usa_spending_data_task, run_id=manual__2024-11-26T04:40:00.792778+00:00, execution_date=20241126T044000, start_date=20241126T044008, end_date=20241126T044016
+[2024-11-26T04:40:16.569+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-26T04:40:16.584+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-26T04:40:16.587+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

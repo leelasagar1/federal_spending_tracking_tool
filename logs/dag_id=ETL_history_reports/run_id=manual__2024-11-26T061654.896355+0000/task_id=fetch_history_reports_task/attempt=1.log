@@ -1,0 +1,39 @@
+[2024-11-26T06:16:57.792+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-26T06:16:57.809+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_history_reports.fetch_history_reports_task manual__2024-11-26T06:16:54.896355+00:00 [queued]>
+[2024-11-26T06:16:57.818+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_history_reports.fetch_history_reports_task manual__2024-11-26T06:16:54.896355+00:00 [queued]>
+[2024-11-26T06:16:57.819+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-26T06:16:57.835+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_history_reports_task> on 2024-11-26 06:16:54.896355+00:00
+[2024-11-26T06:16:57.845+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=13799) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-26T06:16:57.844+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_history_reports', 'fetch_history_reports_task', 'manual__2024-11-26T06:16:54.896355+00:00', '--job-id', '377', '--raw', '--subdir', 'DAGS_FOLDER/project_dag.py', '--cfg-path', '/tmp/tmpkzwzhvyq']
+[2024-11-26T06:16:57.847+0000] {standard_task_runner.py:72} INFO - Started process 13803 to run task
+[2024-11-26T06:16:57.847+0000] {standard_task_runner.py:105} INFO - Job 377: Subtask fetch_history_reports_task
+[2024-11-26T06:16:57.899+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_history_reports.fetch_history_reports_task manual__2024-11-26T06:16:54.896355+00:00 [running]> on host 6a246d8d590f
+[2024-11-26T06:16:58.229+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETL_history_reports' AIRFLOW_CTX_TASK_ID='fetch_history_reports_task' AIRFLOW_CTX_EXECUTION_DATE='2024-11-26T06:16:54.896355+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-26T06:16:54.896355+00:00'
+[2024-11-26T06:16:58.231+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-26T06:16:59.187+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_History_11_1_2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:16:59.273+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_History_10_1_2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:16:59.355+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_History_9_1_2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:16:59.439+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_History_8_1_2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:16:59.523+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_History_7_1_2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:16:59.601+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_History_6_1_2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:16:59.683+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_History_5_1_2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:16:59.761+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_History-4-1-2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:16:59.842+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-History-2024-03.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:16:59.921+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-History-2024-02.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:17:00.003+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-History-2024-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:17:00.085+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-History-2023-12.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:17:00.167+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_History-11-1-2023.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:17:00.242+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-History-2023-10.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:17:00.323+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-History-2023-04.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:17:00.412+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-History-2023-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:17:00.512+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-History-2022-10.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:17:00.597+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-History-2022-07.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:17:00.682+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-History-2022-04.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:17:00.758+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-History-2022-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:17:00.840+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-History-2021-10.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:17:00.843+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-26T06:17:00.856+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-26T06:17:00.856+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_history_reports, task_id=fetch_history_reports_task, run_id=manual__2024-11-26T06:16:54.896355+00:00, execution_date=20241126T061654, start_date=20241126T061657, end_date=20241126T061700
+[2024-11-26T06:17:00.915+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-26T06:17:00.944+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-26T06:17:00.948+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

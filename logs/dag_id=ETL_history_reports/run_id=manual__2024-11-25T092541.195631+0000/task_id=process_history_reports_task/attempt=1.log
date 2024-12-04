@@ -1,0 +1,26 @@
+[2024-11-25T09:25:49.492+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-25T09:25:49.510+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_history_reports.process_history_reports_task manual__2024-11-25T09:25:41.195631+00:00 [queued]>
+[2024-11-25T09:25:49.521+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_history_reports.process_history_reports_task manual__2024-11-25T09:25:41.195631+00:00 [queued]>
+[2024-11-25T09:25:49.521+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-25T09:25:49.538+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): process_history_reports_task> on 2024-11-25 09:25:41.195631+00:00
+[2024-11-25T09:25:49.547+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=3911) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-25T09:25:49.548+0000] {standard_task_runner.py:72} INFO - Started process 3913 to run task
+[2024-11-25T09:25:49.547+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_history_reports', 'process_history_reports_task', 'manual__2024-11-25T09:25:41.195631+00:00', '--job-id', '296', '--raw', '--subdir', 'DAGS_FOLDER/project_dag.py', '--cfg-path', '/tmp/tmpztbh7lvi']
+[2024-11-25T09:25:49.550+0000] {standard_task_runner.py:105} INFO - Job 296: Subtask process_history_reports_task
+[2024-11-25T09:25:49.601+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_history_reports.process_history_reports_task manual__2024-11-25T09:25:41.195631+00:00 [running]> on host 6a246d8d590f
+[2024-11-25T09:25:49.942+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETL_history_reports' AIRFLOW_CTX_TASK_ID='process_history_reports_task' AIRFLOW_CTX_EXECUTION_DATE='2024-11-25T09:25:41.195631+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-25T09:25:41.195631+00:00'
+[2024-11-25T09:25:49.944+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-25T09:25:53.886+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/data_processing/history_reports_processing_script.py:278 FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+[2024-11-25T09:25:54.108+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/history_reports/disaster_events_9_1_2024.csv
+[2024-11-25T09:25:54.321+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/history_reports/grantee_9_1_2024.csv
+[2024-11-25T09:25:54.527+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/history_reports/grant_9_1_2024.csv
+[2024-11-25T09:25:54.732+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/history_reports/public_law_numbers_9_1_2024.csv
+[2024-11-25T09:25:54.935+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/history_reports/disaster_public_law_9_1_2024.csv
+[2024-11-25T09:25:55.259+0000] {logging_mixin.py:190} INFO - File moved from s3://project-raw-data-files/history_reports/CDBG_DR_Grant_History_9_1_2024.pdf to s3://project-raw-data-files/archived/history_reports/CDBG_DR_Grant_History_9_1_2024.pdf
+[2024-11-25T09:25:55.262+0000] {logging_mixin.py:190} INFO - Processed file saved to S3: s3://project-processed-data/CDBG_DR_Grant_History_9_1_2024.pdf
+[2024-11-25T09:25:55.264+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-25T09:25:55.274+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-25T09:25:55.275+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_history_reports, task_id=process_history_reports_task, run_id=manual__2024-11-25T09:25:41.195631+00:00, execution_date=20241125T092541, start_date=20241125T092549, end_date=20241125T092555
+[2024-11-25T09:25:55.325+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-25T09:25:55.349+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-25T09:25:55.355+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

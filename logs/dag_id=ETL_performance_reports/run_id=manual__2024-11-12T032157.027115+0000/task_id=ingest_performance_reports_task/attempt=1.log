@@ -1,0 +1,123 @@
+[2024-11-12T03:22:05.404+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-12T03:22:05.457+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_performance_reports.ingest_performance_reports_task manual__2024-11-12T03:21:57.027115+00:00 [queued]>
+[2024-11-12T03:22:05.481+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_performance_reports.ingest_performance_reports_task manual__2024-11-12T03:21:57.027115+00:00 [queued]>
+[2024-11-12T03:22:05.482+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-12T03:22:05.519+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): ingest_performance_reports_task> on 2024-11-12 03:21:57.027115+00:00
+[2024-11-12T03:22:05.538+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=635) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-12T03:22:05.541+0000] {standard_task_runner.py:72} INFO - Started process 637 to run task
+[2024-11-12T03:22:05.538+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_performance_reports', 'ingest_performance_reports_task', 'manual__2024-11-12T03:21:57.027115+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/project_dag.py', '--cfg-path', '/tmp/tmp_5ma7u3a']
+[2024-11-12T03:22:05.543+0000] {standard_task_runner.py:105} INFO - Job 45: Subtask ingest_performance_reports_task
+[2024-11-12T03:22:05.636+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_performance_reports.ingest_performance_reports_task manual__2024-11-12T03:21:57.027115+00:00 [running]> on host ea9551303006
+[2024-11-12T03:22:05.788+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETL_performance_reports' AIRFLOW_CTX_TASK_ID='ingest_performance_reports_task' AIRFLOW_CTX_EXECUTION_DATE='2024-11-12T03:21:57.027115+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-12T03:21:57.027115+00:00'
+[2024-11-12T03:22:05.790+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-12T03:22:06.462+0000] {logging_mixin.py:190} INFO - INSERT INTO Activities (activity_id, activity_number, activity_type, activity_status, project_number, project_title, projected_start_date, projected_end_date, national_objective, responsible_entity, benefit_type, activity_title, completed_activity_actual_end_date) VALUES (%(activity_id)s, %(activity_number)s, %(activity_type)s, %(activity_status)s, %(project_number)s, %(project_title)s, %(projected_start_date)s, %(projected_end_date)s, %(national_objective)s, %(responsible_entity)s, %(benefit_type)s, %(activity_title)s, %(completed_activity_actual_end_date)s) ON CONFLICT DO NOTHING
+[2024-11-12T03:22:06.469+0000] {logging_mixin.py:190} INFO - [{'activity_id': 9, 'activity_number': 'R01HO7RRR-DOH-LM', 'activity_type': 'Rehabilitation/reconstruction of residential structures', 'activity_status': 'Under Way', 'project_number': 'Housing B-17-DM-72-0001', 'project_title': 'Housing', 'projected_start_date': Timestamp('2018-09-20 00:00:00'), 'projected_end_date': Timestamp('2026-09-19 00:00:00'), 'national_objective': 'Low/Mod', 'responsible_entity': 'Puerto Rico Department of Housing', 'benefit_type': 'Direct (HouseHold)', 'activity_title': 'Repair, Reconstruction, Relocation Program LMI', 'completed_activity_actual_end_date': None}, {'activity_id': 10, 'activity_number': 'R02EQMITGNCLMI', 'activity_type': 'Rehabilitation/reconstruction of residential structures', 'activity_status': 'Under Way', 'project_number': 'MIT B-21-DZ-72-0001', 'project_title': 'MIT Set-Aside', 'projected_start_date': Timestamp('2023-09-05 00:00:00'), 'projected_end_date': Timestamp('2029-09-05 00:00:00'), 'national_objective': 'Low/Mod', 'responsible_entity': 'Puerto Rico Department of Housing', 'benefit_type': 'Direct ( HouseHold )', 'activity_title': 'MIT Set-Aside Guanica', 'completed_activity_actual_end_date': None}, {'activity_id': 11, 'activity_number': 'R02EQMITGYLLMI', 'activity_type': 'Rehabilitation/reconstruction of residential structures', 'activity_status': 'Under Way', 'project_number': 'MIT B-21-DZ-72-0001', 'project_title': 'MIT Set-Aside', 'projected_start_date': Timestamp('2023-09-05 00:00:00'), 'projected_end_date': Timestamp('2029-09-05 00:00:00'), 'national_objective': 'Low/Mod', 'responsible_entity': 'Puerto Rico Department of Housing', 'benefit_type': 'Direct ( HouseHold', 'activity_title': 'MIT Set-Aside Guayanilla', 'completed_activity_actual_end_date': None}, {'activity_id': 12, 'activity_number': 'R02EQMITLAJLMI', 'activity_type': 'Rehabilitation/reconstruction of residential structures', 'activity_status': 'Under Way', 'project_number': 'MIT B-21-DZ-72-0001', 'project_title': 'MIT Set-Aside', 'projected_start_date': Timestamp('2023-09-05 00:00:00'), 'projected_end_date': Timestamp('2029-09-05 00:00:00'), 'national_objective': 'Low/Mod', 'responsible_entity': 'Puerto Rico Department of Housing', 'benefit_type': 'Direct ( HouseHold )', 'activity_title': 'MIT Set-Aside Lajas', 'completed_activity_actual_end_date': None}, {'activity_id': 13, 'activity_number': 'R02EQMITMAYLMI', 'activity_type': 'Rehabilitation/reconstruction of residential structures', 'activity_status': 'Under Way', 'project_number': 'MIT B-21-DZ-72-0001', 'project_title': 'MIT Set-Aside', 'projected_start_date': Timestamp('2023-09-05 00:00:00'), 'projected_end_date': Timestamp('2026-09-05 00:00:00'), 'national_objective': 'Low/Mod', 'responsible_entity': 'Puerto Rico Department of Housing', 'benefit_type': 'Direct ( HouseHold )', 'activity_title': 'MIT Set-Aside Mayaguez', 'completed_activity_actual_end_date': None}, {'activity_id': 14, 'activity_number': 'R02EQMITPENLMI', 'activity_type': 'Rehabilitation/reconstruction of residential structures', 'activity_status': 'Under Way', 'project_number': 'MIT B-21-DZ-72-0001', 'project_title': 'MIT Set-Aside', 'projected_start_date': Timestamp('2023-09-05 00:00:00'), 'projected_end_date': Timestamp('2029-09-05 00:00:00'), 'national_objective': 'Low/Mod', 'responsible_entity': 'Puerto Rico Department of Housing', 'benefit_type': 'Direct ( HouseHold )', 'activity_title': 'MIT Set-Aside Penuelas', 'completed_activity_actual_end_date': None}, {'activity_id': 15, 'activity_number': 'R02EQMITPONLMI', 'activity_type': 'Rehabilitation/reconstruction of residential structures', 'activity_status': 'Under Way', 'project_number': 'MIT B-21-DZ-72-0001', 'project_title': 'MIT Set-Aside', 'projected_start_date': Timestamp('2023-09-05 00:00:00'), 'projected_end_date': Timestamp('2029-09-05 00:00:00'), 'national_objective': 'Low/Mod', 'responsible_entity': 'Puerto Rico Department of Housing', 'benefit_type': 'Direct ( HouseHold )', 'activity_title': 'MIT Set-Aside Ponce', 'completed_activity_actual_end_date': None}, {'activity_id': 16, 'activity_number': 'R02EQMITYAULMI', 'activity_type': 'Rehabilitation/reconstruction of residential structures', 'activity_status': 'Under Way', 'project_number': 'MIT B-21-DZ-72-0001', 'project_title': 'MIT Set-Aside', 'projected_start_date': Timestamp('2023-09-05 00:00:00'), 'projected_end_date': Timestamp('2029-09-05 00:00:00'), 'national_objective': 'Low/Mod', 'responsible_entity': 'Puerto Rico Department of Housing', 'benefit_type': 'Direct ( HouseHold )', 'activity_title': 'MIT Set-Aside Yauco', 'completed_activity_actual_end_date': None}, {'activity_id': 17, 'activity_number': 'EQ-P02-PPI-DOH-NA', 'activity_type': 'Planning', 'activity_status': 'Under Way', 'project_number': 'Planning B-19-DF-72-0001', 'project_title': 'Planning', 'projected_start_date': Timestamp('2021-12-27 00:00:00'), 'projected_end_date': Timestamp('2029-12-26 00:00:00'), 'national_objective': nan, 'responsible_entity': 'Puerto Rico Department of Housing', 'benefit_type': nan, 'activity_title': 'Program Planning Internal', 'completed_activity_actual_end_date': None}]
+[2024-11-12T03:22:06.671+0000] {logging_mixin.py:190} INFO - Data successfully written to table Activities.
+[2024-11-12T03:22:06.985+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/quarterly_performance_reports/activity_20241111_225350.csv to s3://project-processed-data/archived/quarterly_performance_reports/activity_20241111_225350.csv
+[2024-11-12T03:22:07.029+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_ingestion/quarterly_performance_reports_data_ingestion.py", line 132, in ingest_performance_reports
+    file_1 = load_s3_file(source_bucket, performance_file)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_ingestion/quarterly_performance_reports_data_ingestion.py", line 11, in load_s3_file
+    obj = s3.get_object(Bucket=bucket, Key=key)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/botocore/client.py", line 569, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/botocore/client.py", line 1023, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.NoSuchKey: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+[2024-11-12T03:22:07.059+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=ETL_performance_reports, task_id=ingest_performance_reports_task, run_id=manual__2024-11-12T03:21:57.027115+00:00, execution_date=20241112T032157, start_date=20241112T032205, end_date=20241112T032207
+[2024-11-12T03:22:07.085+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-12T03:22:07.087+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 45 for task ingest_performance_reports_task (An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.; 637)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_ingestion/quarterly_performance_reports_data_ingestion.py", line 132, in ingest_performance_reports
+    file_1 = load_s3_file(source_bucket, performance_file)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_ingestion/quarterly_performance_reports_data_ingestion.py", line 11, in load_s3_file
+    obj = s3.get_object(Bucket=bucket, Key=key)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/botocore/client.py", line 569, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/botocore/client.py", line 1023, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.NoSuchKey: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+[2024-11-12T03:22:07.128+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-11-12T03:22:07.165+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-12T03:22:07.169+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

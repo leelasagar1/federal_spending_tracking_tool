@@ -1,0 +1,434 @@
+[2024-12-03T21:37:37.502+0000] {processor.py:186} INFO - Started process (PID=67174) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:37:37.504+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:37:37.514+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:37:37.514+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:37:44.061+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:37:44.663+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:37:44.662+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:37:44.772+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:37:44.772+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:37:44.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 7.514 seconds
+[2024-12-03T21:38:15.280+0000] {processor.py:186} INFO - Started process (PID=67216) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:38:15.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:38:15.285+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:38:15.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:38:17.254+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:38:17.297+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:38:17.296+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:38:17.341+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:38:17.341+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:38:17.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 2.129 seconds
+[2024-12-03T21:38:47.781+0000] {processor.py:186} INFO - Started process (PID=67250) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:38:47.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:38:47.788+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:38:47.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:38:48.726+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:38:48.740+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:38:48.739+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:38:48.775+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:38:48.774+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:38:48.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 1.037 seconds
+[2024-12-03T21:39:19.527+0000] {processor.py:186} INFO - Started process (PID=67280) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:39:19.543+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:39:19.545+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:39:19.544+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:39:20.708+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:39:20.917+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:39:20.916+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:39:20.942+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:39:20.942+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:39:20.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 1.462 seconds
+[2024-12-03T21:39:51.359+0000] {processor.py:186} INFO - Started process (PID=67310) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:39:51.361+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:39:51.363+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:39:51.363+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:39:52.350+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:39:52.385+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:39:52.385+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:39:52.419+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:39:52.419+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:39:52.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 1.113 seconds
+[2024-12-03T21:40:22.996+0000] {processor.py:186} INFO - Started process (PID=67340) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:40:22.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:40:23.001+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:40:23.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:40:23.846+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:40:23.857+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:40:23.857+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:40:23.884+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:40:23.884+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:40:23.910+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 0.932 seconds
+[2024-12-03T21:40:54.933+0000] {processor.py:186} INFO - Started process (PID=67370) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:40:54.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:40:54.937+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:40:54.936+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:40:55.778+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:40:55.901+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:40:55.900+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:40:55.922+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:40:55.922+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:40:55.945+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 1.033 seconds
+[2024-12-03T21:41:26.702+0000] {processor.py:186} INFO - Started process (PID=67402) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:41:26.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:41:26.705+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:41:26.705+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:41:27.452+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:41:27.478+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:41:27.477+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:41:27.502+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:41:27.502+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:41:27.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 0.840 seconds
+[2024-12-03T21:41:57.989+0000] {processor.py:186} INFO - Started process (PID=67432) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:41:57.990+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:41:57.992+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:41:57.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:41:58.717+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:41:58.728+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:41:58.728+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:41:58.752+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:41:58.752+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:41:58.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 0.797 seconds
+[2024-12-03T21:42:29.278+0000] {processor.py:186} INFO - Started process (PID=67462) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:42:29.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:42:29.280+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:42:29.280+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:42:30.088+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:42:30.219+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:42:30.218+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:42:30.241+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:42:30.240+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:42:30.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 0.999 seconds
+[2024-12-03T21:43:01.010+0000] {processor.py:186} INFO - Started process (PID=67492) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:43:01.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:43:01.013+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:43:01.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:43:01.760+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:43:01.782+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:43:01.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:43:01.804+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:43:01.804+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:43:01.827+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 0.838 seconds
+[2024-12-03T21:43:32.072+0000] {processor.py:186} INFO - Started process (PID=67528) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:43:32.076+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:43:32.081+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:43:32.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:43:33.061+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:43:33.072+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:43:33.071+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:43:33.095+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:43:33.094+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:43:33.115+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 1.092 seconds
+[2024-12-03T21:44:03.231+0000] {processor.py:186} INFO - Started process (PID=67558) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:44:03.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:44:03.234+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:44:03.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:44:03.971+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:44:04.085+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:44:04.084+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:44:04.104+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:44:04.104+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:44:04.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 0.911 seconds
+[2024-12-03T21:44:34.656+0000] {processor.py:186} INFO - Started process (PID=67588) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:44:34.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:44:34.660+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:44:34.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:44:35.384+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:44:35.407+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:44:35.406+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:44:35.427+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:44:35.426+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:44:35.446+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 0.806 seconds
+[2024-12-03T21:45:05.604+0000] {processor.py:186} INFO - Started process (PID=67618) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:45:05.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:45:05.607+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:45:05.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:45:06.349+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:45:06.360+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:45:06.359+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:45:06.382+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:45:06.382+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:45:06.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 0.811 seconds
+[2024-12-03T21:45:36.512+0000] {processor.py:186} INFO - Started process (PID=67645) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:45:36.514+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:45:36.515+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:45:36.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:45:37.337+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:45:37.479+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:45:37.478+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:45:37.501+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:45:37.501+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:45:37.523+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 1.026 seconds
+[2024-12-03T21:46:08.043+0000] {processor.py:186} INFO - Started process (PID=67672) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:46:08.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:46:08.047+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:46:08.047+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:46:08.841+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:46:08.876+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:46:08.875+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:46:08.907+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:46:08.906+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:46:08.932+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 0.904 seconds
+[2024-12-03T21:46:39.077+0000] {processor.py:186} INFO - Started process (PID=67702) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:46:39.078+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:46:39.080+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:46:39.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:46:39.881+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:46:39.890+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:46:39.890+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:46:39.912+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:46:39.912+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:46:39.932+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 0.873 seconds
+[2024-12-03T21:47:10.217+0000] {processor.py:186} INFO - Started process (PID=67732) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:47:10.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:47:10.224+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:47:10.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:47:11.901+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:47:12.354+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:47:12.352+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:47:12.435+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:47:12.434+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:47:12.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 2.420 seconds
+[2024-12-03T21:47:42.928+0000] {processor.py:186} INFO - Started process (PID=67761) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:47:42.933+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:47:42.940+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:47:42.938+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:47:46.054+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:47:46.100+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:47:46.098+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:47:46.250+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:47:46.249+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:47:46.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.500 seconds
+[2024-12-03T21:48:16.758+0000] {processor.py:186} INFO - Started process (PID=67790) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:48:16.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:48:16.776+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:48:16.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:48:19.737+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:48:20.235+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:48:20.233+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:48:20.328+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:48:20.327+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:48:20.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.709 seconds
+[2024-12-03T21:48:50.864+0000] {processor.py:186} INFO - Started process (PID=67815) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:48:50.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:48:50.881+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:48:50.879+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:48:53.791+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:48:53.882+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:48:53.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:48:53.971+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:48:53.970+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:48:54.047+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.251 seconds
+[2024-12-03T21:49:24.372+0000] {processor.py:186} INFO - Started process (PID=67844) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:49:24.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:49:24.389+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:49:24.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:49:27.595+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:49:27.637+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:49:27.634+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:49:27.742+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:49:27.742+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:49:27.827+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.519 seconds
+[2024-12-03T21:49:58.721+0000] {processor.py:186} INFO - Started process (PID=67873) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:49:58.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:49:58.732+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:49:58.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:50:02.180+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:50:02.684+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:50:02.683+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:50:02.782+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:50:02.781+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:50:02.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 4.213 seconds
+[2024-12-03T21:50:33.323+0000] {processor.py:186} INFO - Started process (PID=67906) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:50:33.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:50:33.334+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:50:33.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:50:36.325+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:50:36.413+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:50:36.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:50:36.507+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:50:36.506+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:50:36.581+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.314 seconds
+[2024-12-03T21:51:07.392+0000] {processor.py:186} INFO - Started process (PID=67936) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:51:07.396+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:51:07.402+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:51:07.401+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:51:10.003+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:51:10.042+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:51:10.040+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:51:10.141+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:51:10.140+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:51:10.216+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 2.879 seconds
+[2024-12-03T21:51:40.572+0000] {processor.py:186} INFO - Started process (PID=67966) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:51:40.577+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:51:40.595+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:51:40.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:51:43.437+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:51:43.887+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:51:43.886+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:51:43.974+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:51:43.973+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:51:44.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.543 seconds
+[2024-12-03T21:52:14.672+0000] {processor.py:186} INFO - Started process (PID=67996) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:52:14.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:52:14.682+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:52:14.681+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:52:17.384+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:52:17.473+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:52:17.472+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:52:17.556+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:52:17.555+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:52:17.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.014 seconds
+[2024-12-03T21:52:48.020+0000] {processor.py:186} INFO - Started process (PID=68026) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:52:48.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:52:48.032+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:52:48.031+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:52:50.957+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:52:51.000+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:52:50.998+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:52:51.112+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:52:51.111+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:52:51.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.233 seconds
+[2024-12-03T21:53:21.858+0000] {processor.py:186} INFO - Started process (PID=68056) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:53:21.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:53:21.876+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:53:21.874+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:53:24.847+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:53:25.354+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:53:25.353+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:53:25.440+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:53:25.439+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:53:25.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.725 seconds
+[2024-12-03T21:53:56.630+0000] {processor.py:186} INFO - Started process (PID=68086) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:53:56.634+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:53:56.643+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:53:56.641+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:54:01.261+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:54:01.434+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:54:01.432+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:54:01.599+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:54:01.598+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:54:01.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 5.196 seconds
+[2024-12-03T21:54:32.453+0000] {processor.py:186} INFO - Started process (PID=68116) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:54:32.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:54:32.466+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:54:32.464+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:54:35.954+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:54:36.004+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:54:36.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:54:36.117+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:54:36.116+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:54:36.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.806 seconds
+[2024-12-03T21:55:07.102+0000] {processor.py:186} INFO - Started process (PID=68152) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:55:07.106+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:55:07.113+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:55:07.111+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:55:10.294+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:55:10.863+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:55:10.861+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:55:10.962+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:55:10.961+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:55:11.043+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 4.000 seconds
+[2024-12-03T21:55:41.929+0000] {processor.py:186} INFO - Started process (PID=68182) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:55:41.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:55:41.944+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:55:41.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:55:44.883+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:55:45.012+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:55:45.010+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:55:45.126+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:55:45.125+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:55:45.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.341 seconds
+[2024-12-03T21:56:15.623+0000] {processor.py:186} INFO - Started process (PID=68212) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:56:15.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:56:15.636+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:56:15.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:56:18.416+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:56:18.453+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:56:18.452+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:56:18.541+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:56:18.541+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:56:18.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.056 seconds
+[2024-12-03T21:56:48.935+0000] {processor.py:186} INFO - Started process (PID=68240) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:56:48.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:56:48.946+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:56:48.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:56:51.646+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:56:52.147+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:56:52.146+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:56:52.233+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:56:52.232+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:56:52.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.432 seconds
+[2024-12-03T21:57:22.570+0000] {processor.py:186} INFO - Started process (PID=68269) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:57:22.574+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:57:22.581+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:57:22.580+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:57:25.690+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:57:25.782+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:57:25.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:57:25.894+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:57:25.893+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:57:25.972+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.459 seconds
+[2024-12-03T21:57:56.601+0000] {processor.py:186} INFO - Started process (PID=68296) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:57:56.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:57:56.617+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:57:56.615+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:58:00.229+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:58:00.881+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:58:00.879+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:58:01.010+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:58:01.009+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:58:01.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 4.563 seconds
+[2024-12-03T21:58:31.714+0000] {processor.py:186} INFO - Started process (PID=68327) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:58:31.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:58:31.728+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:58:31.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:58:34.775+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:58:34.880+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:58:34.878+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:58:34.986+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:58:34.986+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:58:35.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.413 seconds
+[2024-12-03T21:59:05.446+0000] {processor.py:186} INFO - Started process (PID=68357) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:59:05.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:59:05.456+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:59:05.455+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:59:08.159+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:59:08.199+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:59:08.198+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:59:08.295+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:59:08.294+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:59:08.371+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 2.985 seconds
+[2024-12-03T21:59:38.999+0000] {processor.py:186} INFO - Started process (PID=68393) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:59:39.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T21:59:39.009+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:59:39.008+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:59:41.622+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T21:59:42.080+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:59:42.078+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:59:42.163+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:59:42.162+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T21:59:42.240+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.301 seconds
+[2024-12-03T22:00:12.493+0000] {processor.py:186} INFO - Started process (PID=68423) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:00:12.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:00:12.504+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:00:12.502+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:00:15.168+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:00:15.253+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:00:15.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:00:15.337+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:00:15.337+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:00:15.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 2.970 seconds
+[2024-12-03T22:00:45.812+0000] {processor.py:186} INFO - Started process (PID=68453) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:00:45.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:00:45.823+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:00:45.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:00:48.551+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:00:48.590+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:00:48.588+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:00:48.683+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:00:48.682+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:00:48.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 2.991 seconds
+[2024-12-03T22:01:18.978+0000] {processor.py:186} INFO - Started process (PID=68481) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:01:18.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:01:18.990+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:01:18.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:01:21.674+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:01:22.125+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:01:22.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:01:22.210+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:01:22.209+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:01:22.290+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.360 seconds
+[2024-12-03T22:01:52.816+0000] {processor.py:186} INFO - Started process (PID=68511) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:01:52.820+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:01:52.830+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:01:52.829+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:01:56.164+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:01:56.285+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:01:56.283+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:01:56.371+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:01:56.370+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:01:56.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.688 seconds
+[2024-12-03T22:02:27.255+0000] {processor.py:186} INFO - Started process (PID=68540) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:02:27.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:02:27.267+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:02:27.265+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:02:30.178+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:02:30.218+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:02:30.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:02:30.303+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:02:30.302+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:02:30.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.174 seconds
+[2024-12-03T22:03:00.714+0000] {processor.py:186} INFO - Started process (PID=68570) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:03:00.718+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:03:00.726+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:03:00.724+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:03:03.517+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:03:04.001+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:03:03.999+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:03:04.081+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:03:04.080+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:03:04.153+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.503 seconds
+[2024-12-03T22:03:35.157+0000] {processor.py:186} INFO - Started process (PID=68597) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:03:35.165+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:03:35.177+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:03:35.175+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:03:37.920+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:03:38.018+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:03:38.016+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:03:38.139+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:03:38.136+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:03:38.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.140 seconds
+[2024-12-03T22:04:08.777+0000] {processor.py:186} INFO - Started process (PID=68634) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:04:08.781+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:04:08.787+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:04:08.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:04:11.397+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:04:11.439+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:04:11.438+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:04:11.544+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:04:11.543+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:04:11.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 2.893 seconds
+[2024-12-03T22:04:42.193+0000] {processor.py:186} INFO - Started process (PID=68664) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:04:42.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:04:42.208+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:04:42.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:04:44.854+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:04:45.328+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:04:45.326+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:04:45.425+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:04:45.423+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:04:45.500+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.366 seconds
+[2024-12-03T22:05:15.888+0000] {processor.py:186} INFO - Started process (PID=68694) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:05:15.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:05:15.898+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:05:15.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:05:18.631+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:05:18.723+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:05:18.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:05:18.814+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:05:18.813+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:05:18.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.051 seconds
+[2024-12-03T22:05:49.122+0000] {processor.py:186} INFO - Started process (PID=68722) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:05:49.127+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:05:49.135+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:05:49.133+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:05:52.262+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:05:52.309+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:05:52.307+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:05:52.413+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:05:52.413+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:05:52.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.428 seconds
+[2024-12-03T22:06:22.781+0000] {processor.py:186} INFO - Started process (PID=68751) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:06:22.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:06:22.793+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:06:22.791+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:06:25.592+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:06:26.095+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:06:26.093+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:06:26.270+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:06:26.269+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:06:26.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.617 seconds
+[2024-12-03T22:06:56.718+0000] {processor.py:186} INFO - Started process (PID=68778) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:06:56.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:06:56.729+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:06:56.727+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:06:59.447+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:06:59.538+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:06:59.536+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:06:59.625+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:06:59.624+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:06:59.700+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.036 seconds
+[2024-12-03T22:07:30.252+0000] {processor.py:186} INFO - Started process (PID=68808) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:07:30.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:07:30.263+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:07:30.262+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:07:32.904+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:07:33.413+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:07:33.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:07:33.508+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:07:33.507+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:07:33.581+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.380 seconds
+[2024-12-03T22:08:04.306+0000] {processor.py:186} INFO - Started process (PID=68838) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:08:04.311+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:08:04.318+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:08:04.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:08:07.052+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:08:07.140+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:08:07.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:08:07.240+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:08:07.239+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:08:07.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.074 seconds
+[2024-12-03T22:08:37.847+0000] {processor.py:186} INFO - Started process (PID=68868) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:08:37.850+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:08:37.857+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:08:37.855+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:08:40.758+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:08:40.799+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:08:40.798+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:08:40.885+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:08:40.884+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:08:40.951+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.156 seconds
+[2024-12-03T22:09:11.605+0000] {processor.py:186} INFO - Started process (PID=68904) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:09:11.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:09:11.616+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:09:11.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:09:14.301+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:09:14.755+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:09:14.753+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:09:14.851+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:09:14.851+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:09:14.932+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.383 seconds
+[2024-12-03T22:09:45.235+0000] {processor.py:186} INFO - Started process (PID=68934) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:09:45.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:09:45.250+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:09:45.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:09:48.034+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:09:48.125+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:09:48.122+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:09:48.237+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:09:48.235+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:09:48.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.134 seconds
+[2024-12-03T22:10:19.286+0000] {processor.py:186} INFO - Started process (PID=68964) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:10:19.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:10:19.298+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:10:19.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:10:21.958+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:10:22.015+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:10:22.013+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:10:22.138+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:10:22.137+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:10:22.226+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 2.992 seconds
+[2024-12-03T22:10:53.235+0000] {processor.py:186} INFO - Started process (PID=68995) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:10:53.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:10:53.250+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:10:53.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:10:56.740+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:10:57.282+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:10:57.279+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:10:57.391+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:10:57.390+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:10:57.498+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 4.323 seconds
+[2024-12-03T22:11:27.742+0000] {processor.py:186} INFO - Started process (PID=69025) to work on /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:11:27.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/usa_spending_dag.py for tasks to queue
+[2024-12-03T22:11:27.752+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:11:27.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:11:30.658+0000] {processor.py:925} INFO - DAG(s) 'ETL_usa_spending' retrieved from /opt/airflow/dags/usa_spending_dag.py
+[2024-12-03T22:11:30.768+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:11:30.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:11:30.856+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:11:30.855+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_usa_spending to 2024-12-02 00:00:00+00:00, run_after=2024-12-03 00:00:00+00:00
+[2024-12-03T22:11:30.932+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/usa_spending_dag.py took 3.242 seconds

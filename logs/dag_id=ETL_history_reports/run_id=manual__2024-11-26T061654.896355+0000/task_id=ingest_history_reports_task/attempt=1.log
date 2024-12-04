@@ -1,0 +1,33 @@
+[2024-11-26T06:17:10.358+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-26T06:17:10.378+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_history_reports.ingest_history_reports_task manual__2024-11-26T06:16:54.896355+00:00 [queued]>
+[2024-11-26T06:17:10.390+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_history_reports.ingest_history_reports_task manual__2024-11-26T06:16:54.896355+00:00 [queued]>
+[2024-11-26T06:17:10.391+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-26T06:17:10.406+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): ingest_history_reports_task> on 2024-11-26 06:16:54.896355+00:00
+[2024-11-26T06:17:10.415+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=13809) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-26T06:17:10.417+0000] {standard_task_runner.py:72} INFO - Started process 13811 to run task
+[2024-11-26T06:17:10.415+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_history_reports', 'ingest_history_reports_task', 'manual__2024-11-26T06:16:54.896355+00:00', '--job-id', '379', '--raw', '--subdir', 'DAGS_FOLDER/project_dag.py', '--cfg-path', '/tmp/tmp0c6wbc84']
+[2024-11-26T06:17:10.418+0000] {standard_task_runner.py:105} INFO - Job 379: Subtask ingest_history_reports_task
+[2024-11-26T06:17:10.469+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_history_reports.ingest_history_reports_task manual__2024-11-26T06:16:54.896355+00:00 [running]> on host 6a246d8d590f
+[2024-11-26T06:17:10.763+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETL_history_reports' AIRFLOW_CTX_TASK_ID='ingest_history_reports_task' AIRFLOW_CTX_EXECUTION_DATE='2024-11-26T06:16:54.896355+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-26T06:16:54.896355+00:00'
+[2024-11-26T06:17:10.765+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-26T06:17:11.144+0000] {logging_mixin.py:190} INFO - Ingesting new data into disaster
+[2024-11-26T06:17:11.683+0000] {logging_mixin.py:190} INFO - Data successfully written to table disaster.
+[2024-11-26T06:17:11.921+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/history_reports/disaster_events_8_1_2024.csv to s3://project-processed-data/archived/history_reports/disaster_events_8_1_2024.csv
+[2024-11-26T06:17:12.094+0000] {logging_mixin.py:190} INFO - Ingesting new data into grantee
+[2024-11-26T06:17:12.702+0000] {logging_mixin.py:190} INFO - Data successfully written to table grantee.
+[2024-11-26T06:17:12.923+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/history_reports/grantee_8_1_2024.csv to s3://project-processed-data/archived/history_reports/grantee_8_1_2024.csv
+[2024-11-26T06:17:13.096+0000] {logging_mixin.py:190} INFO - Ingesting new data into granthistory
+[2024-11-26T06:17:14.465+0000] {logging_mixin.py:190} INFO - Data successfully written to table granthistory.
+[2024-11-26T06:17:14.778+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/history_reports/grant_8_1_2024.csv to s3://project-processed-data/archived/history_reports/grant_8_1_2024.csv
+[2024-11-26T06:17:15.052+0000] {logging_mixin.py:190} INFO - Ingesting new data into publiclaw
+[2024-11-26T06:17:15.705+0000] {logging_mixin.py:190} INFO - Data successfully written to table publiclaw.
+[2024-11-26T06:17:15.939+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/history_reports/public_law_numbers_8_1_2024.csv to s3://project-processed-data/archived/history_reports/public_law_numbers_8_1_2024.csv
+[2024-11-26T06:17:16.108+0000] {logging_mixin.py:190} INFO - Ingesting new data into disasterpubliclaw
+[2024-11-26T06:17:16.847+0000] {logging_mixin.py:190} INFO - Data successfully written to table disasterpubliclaw.
+[2024-11-26T06:17:17.064+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/history_reports/disaster_public_law_8_1_2024.csv to s3://project-processed-data/archived/history_reports/disaster_public_law_8_1_2024.csv
+[2024-11-26T06:17:17.065+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-26T06:17:17.074+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-26T06:17:17.075+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_history_reports, task_id=ingest_history_reports_task, run_id=manual__2024-11-26T06:16:54.896355+00:00, execution_date=20241126T061654, start_date=20241126T061710, end_date=20241126T061717
+[2024-11-26T06:17:17.130+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-26T06:17:17.144+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-26T06:17:17.146+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

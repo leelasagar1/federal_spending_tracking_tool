@@ -1,0 +1,26 @@
+[2024-11-11T22:24:46.197+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-11T22:24:46.218+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: process_performance_reports.process_performance_reports_task manual__2024-11-11T22:24:42.156804+00:00 [queued]>
+[2024-11-11T22:24:46.228+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: process_performance_reports.process_performance_reports_task manual__2024-11-11T22:24:42.156804+00:00 [queued]>
+[2024-11-11T22:24:46.229+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-11T22:24:46.246+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): process_performance_reports_task> on 2024-11-11 22:24:42.156804+00:00
+[2024-11-11T22:24:46.270+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=2597) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-11T22:24:46.273+0000] {standard_task_runner.py:72} INFO - Started process 2599 to run task
+[2024-11-11T22:24:46.271+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'process_performance_reports', 'process_performance_reports_task', 'manual__2024-11-11T22:24:42.156804+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/project_dag.py', '--cfg-path', '/tmp/tmp1o4dl5qs']
+[2024-11-11T22:24:46.275+0000] {standard_task_runner.py:105} INFO - Job 27: Subtask process_performance_reports_task
+[2024-11-11T22:24:46.340+0000] {task_command.py:467} INFO - Running <TaskInstance: process_performance_reports.process_performance_reports_task manual__2024-11-11T22:24:42.156804+00:00 [running]> on host ecd316daaa34
+[2024-11-11T22:24:46.513+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='process_performance_reports' AIRFLOW_CTX_TASK_ID='process_performance_reports_task' AIRFLOW_CTX_EXECUTION_DATE='2024-11-11T22:24:42.156804+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-11T22:24:42.156804+00:00'
+[2024-11-11T22:24:46.515+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-11T22:24:46.887+0000] {logging_mixin.py:190} INFO - Processing file: source-5_page-13.pdf
+[2024-11-11T22:24:52.715+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/scripts/quarterly_performance_reports_extraction_script.py:124 FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-11-11T22:24:52.718+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/scripts/quarterly_performance_reports_extraction_script.py:125 FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-11-11T22:24:52.721+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/scripts/quarterly_performance_reports_extraction_script.py:126 FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-11-11T22:24:56.823+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/quarterly_performance_reports/performance_reports_20241111_222446.csv
+[2024-11-11T22:24:57.043+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/quarterly_performance_reports/amount_description_20241111_222446.csv
+[2024-11-11T22:24:57.248+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/quarterly_performance_reports/activity_20241111_222446.csv
+[2024-11-11T22:24:57.570+0000] {logging_mixin.py:190} INFO - File moved from s3://project-raw-data-files/Quarterly_performance_reports/source-5_page-13.pdf to s3://project-raw-data-files/archived/quarterly_performance_reports/source-5_page-13.pdf
+[2024-11-11T22:24:57.579+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-11T22:24:57.598+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-11T22:24:57.600+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=process_performance_reports, task_id=process_performance_reports_task, run_id=manual__2024-11-11T22:24:42.156804+00:00, execution_date=20241111T222442, start_date=20241111T222446, end_date=20241111T222457
+[2024-11-11T22:24:57.651+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-11T22:24:57.675+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-11T22:24:57.679+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

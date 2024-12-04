@@ -1,0 +1,57 @@
+[2024-11-23T05:25:50.948+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-23T05:25:50.966+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_usa_spending.ingest_usa_spending_data_task manual__2024-11-23T05:25:44.054074+00:00 [queued]>
+[2024-11-23T05:25:50.976+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_usa_spending.ingest_usa_spending_data_task manual__2024-11-23T05:25:44.054074+00:00 [queued]>
+[2024-11-23T05:25:50.977+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-23T05:25:50.992+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): ingest_usa_spending_data_task> on 2024-11-23 05:25:44.054074+00:00
+[2024-11-23T05:25:51.005+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_usa_spending', 'ingest_usa_spending_data_task', 'manual__2024-11-23T05:25:44.054074+00:00', '--job-id', '196', '--raw', '--subdir', 'DAGS_FOLDER/project_dag.py', '--cfg-path', '/tmp/tmpeoufz711']
+[2024-11-23T05:25:51.006+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=86541) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-23T05:25:51.008+0000] {standard_task_runner.py:105} INFO - Job 196: Subtask ingest_usa_spending_data_task
+[2024-11-23T05:25:51.008+0000] {standard_task_runner.py:72} INFO - Started process 86545 to run task
+[2024-11-23T05:25:51.061+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_usa_spending.ingest_usa_spending_data_task manual__2024-11-23T05:25:44.054074+00:00 [running]> on host 7da4b16cbed4
+[2024-11-23T05:25:51.167+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETL_usa_spending' AIRFLOW_CTX_TASK_ID='ingest_usa_spending_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-11-23T05:25:44.054074+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-23T05:25:44.054074+00:00'
+[2024-11-23T05:25:51.169+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-23T05:25:51.544+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into states
+[2024-11-23T05:25:51.808+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/helpers/db_utils.py:149 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-11-23T05:25:51.878+0000] {logging_mixin.py:190} INFO - No new data to ingest for states
+[2024-11-23T05:25:52.258+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into cfdaprograms
+[2024-11-23T05:25:52.471+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/helpers/db_utils.py:149 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-11-23T05:25:52.539+0000] {logging_mixin.py:190} INFO - No new data to ingest for cfdaprograms
+[2024-11-23T05:25:52.703+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into recipients
+[2024-11-23T05:25:52.914+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/helpers/db_utils.py:149 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-11-23T05:25:53.004+0000] {logging_mixin.py:190} INFO - No new data to ingest for recipients
+[2024-11-23T05:25:53.165+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into agencies
+[2024-11-23T05:25:53.379+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/helpers/db_utils.py:149 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-11-23T05:25:53.442+0000] {logging_mixin.py:190} INFO - No new data to ingest for agencies
+[2024-11-23T05:25:53.599+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into subagency
+[2024-11-23T05:25:53.806+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/helpers/db_utils.py:149 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-11-23T05:25:53.866+0000] {logging_mixin.py:190} INFO - No new data to ingest for subagency
+[2024-11-23T05:25:54.220+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into grants
+[2024-11-23T05:25:54.452+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/helpers/db_utils.py:149 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-11-23T05:25:54.668+0000] {logging_mixin.py:190} INFO - Ingesting new data into grants
+[2024-11-23T05:25:54.950+0000] {logging_mixin.py:190} INFO - Error: invalid input syntax for type date: "nan"
+LINE 1: ...LA GRANT (A)', 'C', 'P.L. 115-123', 'nan', 'nan', 'nan', 'na...
+                                                             ^
+[2024-11-23T05:25:55.451+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into funding
+[2024-11-23T05:25:55.656+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/helpers/db_utils.py:149 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-11-23T05:25:56.041+0000] {logging_mixin.py:190} INFO - No new data to ingest for funding
+[2024-11-23T05:25:56.374+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into federalawards
+[2024-11-23T05:25:56.636+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/helpers/db_utils.py:149 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-11-23T05:25:56.695+0000] {logging_mixin.py:190} INFO - Ingesting new data into federalawards
+[2024-11-23T05:25:56.990+0000] {logging_mixin.py:190} INFO - Error: insert or update on table "federalawards" violates foreign key constraint "federalawards_recipient_id_fkey"
+DETAIL:  Key (recipient_id)=(4e80d4c6-329c-27c3-5033-0ac2275b4cf4-C) is not present in table "recipients".
+[2024-11-23T05:25:57.330+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into transactions
+[2024-11-23T05:25:57.546+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/helpers/db_utils.py:149 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-11-23T05:25:57.768+0000] {logging_mixin.py:190} INFO - Ingesting new data into transactions
+[2024-11-23T05:26:20.016+0000] {logging_mixin.py:190} INFO - Data successfully written to table transactions.
+[2024-11-23T05:26:20.446+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/usa_spending_data/transactions_20241123_045632.csv to s3://project-processed-data/archived/usa_spending_data/transactions_20241123_045632.csv
+[2024-11-23T05:26:20.751+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into subawards
+[2024-11-23T05:26:21.014+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/helpers/db_utils.py:149 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-11-23T05:26:21.199+0000] {logging_mixin.py:190} INFO - Ingesting new data into subawards
+[2024-11-23T05:27:00.608+0000] {logging_mixin.py:190} INFO - Data successfully written to table subawards.
+[2024-11-23T05:27:00.946+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/usa_spending_data/sub_awards_20241123_045632.csv to s3://project-processed-data/archived/usa_spending_data/sub_awards_20241123_045632.csv
+[2024-11-23T05:27:00.950+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-23T05:27:00.975+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-23T05:27:00.977+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_usa_spending, task_id=ingest_usa_spending_data_task, run_id=manual__2024-11-23T05:25:44.054074+00:00, execution_date=20241123T052544, start_date=20241123T052550, end_date=20241123T052700
+[2024-11-23T05:27:01.082+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-23T05:27:01.126+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-23T05:27:01.130+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

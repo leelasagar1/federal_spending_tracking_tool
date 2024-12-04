@@ -1,0 +1,420 @@
+[2024-12-03T21:37:43.979+0000] {processor.py:186} INFO - Started process (PID=67184) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:37:43.981+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:37:43.985+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:37:43.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:37:55.094+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:37:56.816+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:37:56.812+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:37:58.539+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:37:58.539+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:37:58.655+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 14.759 seconds
+[2024-12-03T21:38:29.474+0000] {processor.py:186} INFO - Started process (PID=67229) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:38:29.478+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:38:29.481+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:38:29.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:38:31.627+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:38:31.708+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:38:31.707+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:38:31.822+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:38:31.821+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:38:31.925+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 5.308 seconds
+[2024-12-03T21:39:02.074+0000] {processor.py:186} INFO - Started process (PID=67264) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:39:02.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:39:02.082+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:39:02.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:39:03.520+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:39:03.711+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:39:03.710+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:39:03.759+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:39:03.758+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:39:03.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 1.766 seconds
+[2024-12-03T21:39:34.001+0000] {processor.py:186} INFO - Started process (PID=67294) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:39:34.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:39:34.020+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:39:34.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:39:35.827+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:39:35.893+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:39:35.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:39:35.964+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:39:35.964+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:39:36.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 2.030 seconds
+[2024-12-03T21:40:06.691+0000] {processor.py:186} INFO - Started process (PID=67324) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:40:06.692+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:40:06.694+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:40:06.693+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:40:07.833+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:40:07.843+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:40:07.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:40:07.867+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:40:07.867+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:40:07.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 1.227 seconds
+[2024-12-03T21:40:38.175+0000] {processor.py:186} INFO - Started process (PID=67354) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:40:38.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:40:38.179+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:40:38.178+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:40:39.417+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:40:39.542+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:40:39.542+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:40:39.571+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:40:39.571+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:40:39.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 1.454 seconds
+[2024-12-03T21:41:10.251+0000] {processor.py:186} INFO - Started process (PID=67384) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:41:10.253+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:41:10.254+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:41:10.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:41:11.458+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:41:11.487+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:41:11.486+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:41:11.512+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:41:11.512+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:41:11.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 1.313 seconds
+[2024-12-03T21:41:41.811+0000] {processor.py:186} INFO - Started process (PID=67414) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:41:41.812+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:41:41.815+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:41:41.814+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:41:43.143+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:41:43.159+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:41:43.158+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:41:43.187+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:41:43.187+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:41:43.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 1.417 seconds
+[2024-12-03T21:42:13.787+0000] {processor.py:186} INFO - Started process (PID=67444) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:42:13.789+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:42:13.790+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:42:13.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:42:15.121+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:42:15.258+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:42:15.257+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:42:15.285+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:42:15.284+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:42:15.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 1.681 seconds
+[2024-12-03T21:42:46.464+0000] {processor.py:186} INFO - Started process (PID=67474) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:42:46.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:42:46.466+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:42:46.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:42:47.508+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:42:47.532+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:42:47.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:42:47.555+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:42:47.555+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:42:47.575+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 1.126 seconds
+[2024-12-03T21:43:18.312+0000] {processor.py:186} INFO - Started process (PID=67504) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:43:18.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:43:18.316+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:43:18.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:43:19.428+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:43:19.439+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:43:19.438+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:43:19.468+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:43:19.467+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:43:19.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 1.210 seconds
+[2024-12-03T21:43:50.484+0000] {processor.py:186} INFO - Started process (PID=67534) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:43:50.487+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:43:50.493+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:43:50.492+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:43:51.766+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:43:51.904+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:43:51.904+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:43:51.927+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:43:51.927+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:43:51.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 1.515 seconds
+[2024-12-03T21:44:22.543+0000] {processor.py:186} INFO - Started process (PID=67564) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:44:22.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:44:22.546+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:44:22.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:44:23.798+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:44:23.831+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:44:23.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:44:23.857+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:44:23.857+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:44:23.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 1.352 seconds
+[2024-12-03T21:44:54.613+0000] {processor.py:186} INFO - Started process (PID=67594) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:44:54.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:44:54.617+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:44:54.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:44:55.854+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:44:55.866+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:44:55.865+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:44:55.894+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:44:55.894+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:44:55.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 1.323 seconds
+[2024-12-03T21:45:26.681+0000] {processor.py:186} INFO - Started process (PID=67624) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:45:26.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:45:26.690+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:45:26.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:45:27.891+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:45:28.025+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:45:28.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:45:28.183+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:45:28.182+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:45:28.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 1.579 seconds
+[2024-12-03T21:45:58.898+0000] {processor.py:186} INFO - Started process (PID=67654) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:45:58.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:45:58.901+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:45:58.900+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:45:59.965+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:45:59.993+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:45:59.992+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:46:00.019+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:46:00.019+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:46:00.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 1.164 seconds
+[2024-12-03T21:46:30.393+0000] {processor.py:186} INFO - Started process (PID=67684) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:46:30.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:46:30.397+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:46:30.397+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:46:31.521+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:46:31.536+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:46:31.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:46:31.563+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:46:31.562+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:46:31.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 1.209 seconds
+[2024-12-03T21:47:02.514+0000] {processor.py:186} INFO - Started process (PID=67720) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:47:02.517+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:47:02.522+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:47:02.521+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:47:04.240+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:47:04.493+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:47:04.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:47:04.564+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:47:04.563+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:47:04.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 2.146 seconds
+[2024-12-03T21:47:35.624+0000] {processor.py:186} INFO - Started process (PID=67751) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:47:35.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:47:35.642+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:47:35.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:47:40.438+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:47:40.539+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:47:40.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:47:40.649+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:47:40.647+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:47:40.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 5.193 seconds
+[2024-12-03T21:48:11.140+0000] {processor.py:186} INFO - Started process (PID=67781) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:48:11.145+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:48:11.152+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:48:11.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:48:15.433+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:48:15.980+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:48:15.978+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:48:16.377+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:48:16.376+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:48:16.488+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 5.406 seconds
+[2024-12-03T21:48:47.084+0000] {processor.py:186} INFO - Started process (PID=67811) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:48:47.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:48:47.095+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:48:47.094+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:48:51.577+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:48:51.689+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:48:51.687+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:48:51.806+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:48:51.805+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:48:51.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.850 seconds
+[2024-12-03T21:49:22.270+0000] {processor.py:186} INFO - Started process (PID=67841) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:49:22.274+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:49:22.281+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:49:22.280+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:49:27.017+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:49:27.060+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:49:27.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:49:27.188+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:49:27.187+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:49:27.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 5.059 seconds
+[2024-12-03T21:49:57.674+0000] {processor.py:186} INFO - Started process (PID=67870) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:49:57.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:49:57.685+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:49:57.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:50:02.471+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:50:03.111+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:50:03.108+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:50:03.230+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:50:03.229+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:50:03.684+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 6.071 seconds
+[2024-12-03T21:50:34.369+0000] {processor.py:186} INFO - Started process (PID=67910) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:50:34.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:50:34.380+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:50:34.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:50:38.904+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:50:39.017+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:50:39.015+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:50:39.119+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:50:39.117+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:50:39.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.884 seconds
+[2024-12-03T21:51:09.496+0000] {processor.py:186} INFO - Started process (PID=67940) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:51:09.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:51:09.510+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:51:09.507+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:51:13.776+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:51:13.826+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:51:13.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:51:13.969+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:51:13.968+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:51:14.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.639 seconds
+[2024-12-03T21:51:45.321+0000] {processor.py:186} INFO - Started process (PID=67975) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:51:45.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:51:45.331+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:51:45.330+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:51:49.982+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:51:50.472+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:51:50.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:51:50.587+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:51:50.585+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:51:50.688+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 5.427 seconds
+[2024-12-03T21:52:20.916+0000] {processor.py:186} INFO - Started process (PID=68006) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:52:20.920+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:52:20.926+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:52:20.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:52:24.894+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:52:24.988+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:52:24.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:52:25.085+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:52:25.084+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:52:25.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.298 seconds
+[2024-12-03T21:52:55.708+0000] {processor.py:186} INFO - Started process (PID=68036) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:52:55.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:52:55.720+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:52:55.719+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:53:00.428+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:53:00.472+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:53:00.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:53:00.585+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:53:00.584+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:53:00.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 5.043 seconds
+[2024-12-03T21:53:31.486+0000] {processor.py:186} INFO - Started process (PID=68068) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:53:31.490+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:53:31.496+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:53:31.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:53:36.087+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:53:36.581+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:53:36.579+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:53:36.671+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:53:36.670+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:53:36.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 5.319 seconds
+[2024-12-03T21:54:07.438+0000] {processor.py:186} INFO - Started process (PID=68104) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:54:07.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:54:07.456+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:54:07.455+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:54:13.484+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:54:13.588+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:54:13.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:54:13.714+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:54:13.713+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:54:13.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 6.432 seconds
+[2024-12-03T21:54:44.102+0000] {processor.py:186} INFO - Started process (PID=68134) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:54:44.106+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:54:44.115+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:54:44.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:54:49.119+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:54:49.166+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:54:49.163+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:54:49.300+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:54:49.299+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:54:49.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 5.362 seconds
+[2024-12-03T21:55:20.200+0000] {processor.py:186} INFO - Started process (PID=68164) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:55:20.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:55:20.217+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:55:20.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:55:25.291+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:55:25.896+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:55:25.894+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:55:26.304+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:55:26.303+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:55:26.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 6.253 seconds
+[2024-12-03T21:55:56.865+0000] {processor.py:186} INFO - Started process (PID=68194) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:55:56.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:55:56.884+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:55:56.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:56:01.106+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:56:01.220+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:56:01.218+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:56:01.340+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:56:01.339+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:56:01.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.638 seconds
+[2024-12-03T21:56:32.277+0000] {processor.py:186} INFO - Started process (PID=68224) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:56:32.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:56:32.290+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:56:32.288+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:56:36.477+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:56:36.517+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:56:36.516+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:56:36.615+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:56:36.614+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:56:36.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.470 seconds
+[2024-12-03T21:57:07.013+0000] {processor.py:186} INFO - Started process (PID=68260) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:57:07.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:57:07.025+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:57:07.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:57:10.907+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:57:11.458+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:57:11.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:57:11.558+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:57:11.557+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:57:11.972+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 5.023 seconds
+[2024-12-03T21:57:43.087+0000] {processor.py:186} INFO - Started process (PID=68290) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:57:43.092+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:57:43.100+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:57:43.099+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:57:47.036+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:57:47.139+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:57:47.137+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:57:47.232+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:57:47.231+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:57:47.305+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.268 seconds
+[2024-12-03T21:58:18.302+0000] {processor.py:186} INFO - Started process (PID=68321) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:58:18.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:58:18.313+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:58:18.311+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:58:22.912+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:58:22.951+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:58:22.950+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:58:23.071+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:58:23.070+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:58:23.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.912 seconds
+[2024-12-03T21:58:53.897+0000] {processor.py:186} INFO - Started process (PID=68351) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:58:53.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:58:53.907+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:58:53.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:58:58.267+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:58:58.814+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:58:58.812+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:58:58.902+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:58:58.901+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:58:58.991+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 5.146 seconds
+[2024-12-03T21:59:29.318+0000] {processor.py:186} INFO - Started process (PID=68381) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:59:29.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T21:59:29.330+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:59:29.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:59:33.647+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T21:59:33.747+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:59:33.745+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T21:59:33.841+0000] {logging_mixin.py:190} INFO - [2024-12-03T21:59:33.840+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T21:59:33.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.663 seconds
+[2024-12-03T22:00:04.682+0000] {processor.py:186} INFO - Started process (PID=68411) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:00:04.686+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:00:04.693+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:00:04.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:00:08.942+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:00:08.980+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:00:08.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:00:09.078+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:00:09.077+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:00:09.150+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.520 seconds
+[2024-12-03T22:00:39.493+0000] {processor.py:186} INFO - Started process (PID=68447) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:00:39.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:00:39.504+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:00:39.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:00:43.637+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:00:44.188+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:00:44.186+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:00:44.277+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:00:44.276+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:00:44.355+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.914 seconds
+[2024-12-03T22:01:14.858+0000] {processor.py:186} INFO - Started process (PID=68477) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:01:14.863+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:01:14.869+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:01:14.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:01:19.155+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:01:19.255+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:01:19.253+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:01:19.354+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:01:19.353+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:01:19.432+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.632 seconds
+[2024-12-03T22:01:49.765+0000] {processor.py:186} INFO - Started process (PID=68507) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:01:49.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:01:49.776+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:01:49.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:01:54.144+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:01:54.203+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:01:54.201+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:01:54.343+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:01:54.342+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:01:54.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.743 seconds
+[2024-12-03T22:02:25.163+0000] {processor.py:186} INFO - Started process (PID=68537) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:02:25.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:02:25.175+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:02:25.173+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:02:29.230+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:02:29.758+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:02:29.756+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:02:30.160+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:02:30.160+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:02:30.238+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 5.126 seconds
+[2024-12-03T22:03:00.596+0000] {processor.py:186} INFO - Started process (PID=68567) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:03:00.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:03:00.607+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:03:00.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:03:04.699+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:03:04.794+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:03:04.793+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:03:04.896+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:03:04.895+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:03:04.968+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.429 seconds
+[2024-12-03T22:03:35.296+0000] {processor.py:186} INFO - Started process (PID=68600) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:03:35.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:03:35.309+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:03:35.307+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:03:39.548+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:03:39.592+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:03:39.589+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:03:39.715+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:03:39.714+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:03:39.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.552 seconds
+[2024-12-03T22:04:10.250+0000] {processor.py:186} INFO - Started process (PID=68638) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:04:10.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:04:10.261+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:04:10.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:04:14.552+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:04:15.089+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:04:15.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:04:15.181+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:04:15.180+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:04:15.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 5.079 seconds
+[2024-12-03T22:04:45.760+0000] {processor.py:186} INFO - Started process (PID=68670) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:04:45.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:04:45.771+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:04:45.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:04:50.063+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:04:50.154+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:04:50.153+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:04:50.249+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:04:50.248+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:04:50.323+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.617 seconds
+[2024-12-03T22:05:21.086+0000] {processor.py:186} INFO - Started process (PID=68704) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:05:21.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:05:21.095+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:05:21.094+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:05:25.202+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:05:25.242+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:05:25.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:05:25.345+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:05:25.344+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:05:25.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.385 seconds
+[2024-12-03T22:05:55.826+0000] {processor.py:186} INFO - Started process (PID=68734) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:05:55.831+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:05:55.837+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:05:55.836+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:06:00.137+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:06:00.745+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:06:00.742+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:06:00.845+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:06:00.845+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:06:00.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 5.147 seconds
+[2024-12-03T22:06:31.762+0000] {processor.py:186} INFO - Started process (PID=68766) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:06:31.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:06:31.773+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:06:31.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:06:36.086+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:06:36.222+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:06:36.221+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:06:36.387+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:06:36.386+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:06:36.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.762 seconds
+[2024-12-03T22:07:06.920+0000] {processor.py:186} INFO - Started process (PID=68796) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:07:06.927+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:07:06.933+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:07:06.931+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:07:11.201+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:07:11.239+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:07:11.238+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:07:11.359+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:07:11.358+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:07:11.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.568 seconds
+[2024-12-03T22:07:41.848+0000] {processor.py:186} INFO - Started process (PID=68832) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:07:41.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:07:41.860+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:07:41.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:07:45.685+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:07:46.263+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:07:46.261+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:07:46.692+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:07:46.691+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:07:46.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.991 seconds
+[2024-12-03T22:08:17.208+0000] {processor.py:186} INFO - Started process (PID=68862) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:08:17.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:08:17.223+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:08:17.221+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:08:21.310+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:08:21.404+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:08:21.402+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:08:21.493+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:08:21.492+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:08:21.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.422 seconds
+[2024-12-03T22:08:51.941+0000] {processor.py:186} INFO - Started process (PID=68892) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:08:51.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:08:51.954+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:08:51.950+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:08:55.917+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:08:55.959+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:08:55.957+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:08:56.064+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:08:56.063+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:08:56.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.269 seconds
+[2024-12-03T22:09:26.589+0000] {processor.py:186} INFO - Started process (PID=68922) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:09:26.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:09:26.600+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:09:26.598+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:09:30.637+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:09:31.140+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:09:31.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:09:31.228+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:09:31.227+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:09:31.593+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 5.057 seconds
+[2024-12-03T22:10:02.111+0000] {processor.py:186} INFO - Started process (PID=68950) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:10:02.116+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:10:02.123+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:10:02.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:10:06.588+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:10:06.632+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:10:06.630+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:10:06.757+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:10:06.756+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:10:06.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.789 seconds
+[2024-12-03T22:10:38.117+0000] {processor.py:186} INFO - Started process (PID=68980) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:10:38.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:10:38.132+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:10:38.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:10:45.827+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:10:46.606+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:10:46.604+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:10:46.738+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:10:46.737+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:10:46.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 8.787 seconds
+[2024-12-03T22:11:17.114+0000] {processor.py:186} INFO - Started process (PID=69019) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:11:17.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:11:17.127+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:11:17.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:11:21.397+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:11:21.499+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:11:21.497+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:11:21.597+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:11:21.596+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:11:21.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.618 seconds
+[2024-12-03T22:11:52.017+0000] {processor.py:186} INFO - Started process (PID=69049) to work on /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:11:52.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/history_reports_dag.py for tasks to queue
+[2024-12-03T22:11:52.029+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:11:52.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:11:55.943+0000] {processor.py:925} INFO - DAG(s) 'ETL_history_reports' retrieved from /opt/airflow/dags/history_reports_dag.py
+[2024-12-03T22:11:55.982+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:11:55.981+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T22:11:56.084+0000] {logging_mixin.py:190} INFO - [2024-12-03T22:11:56.083+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_history_reports to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T22:11:56.169+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/history_reports_dag.py took 4.205 seconds

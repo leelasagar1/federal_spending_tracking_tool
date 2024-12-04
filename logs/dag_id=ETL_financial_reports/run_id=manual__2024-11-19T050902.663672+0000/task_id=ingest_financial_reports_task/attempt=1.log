@@ -1,0 +1,59 @@
+[2024-11-19T05:09:19.581+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-19T05:09:19.601+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_financial_reports.ingest_financial_reports_task manual__2024-11-19T05:09:02.663672+00:00 [queued]>
+[2024-11-19T05:09:19.611+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_financial_reports.ingest_financial_reports_task manual__2024-11-19T05:09:02.663672+00:00 [queued]>
+[2024-11-19T05:09:19.612+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-19T05:09:19.629+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): ingest_financial_reports_task> on 2024-11-19 05:09:02.663672+00:00
+[2024-11-19T05:09:19.642+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=33045) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-19T05:09:19.644+0000] {standard_task_runner.py:72} INFO - Started process 33049 to run task
+[2024-11-19T05:09:19.642+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_financial_reports', 'ingest_financial_reports_task', 'manual__2024-11-19T05:09:02.663672+00:00', '--job-id', '127', '--raw', '--subdir', 'DAGS_FOLDER/project_dag.py', '--cfg-path', '/tmp/tmprni82nie']
+[2024-11-19T05:09:19.645+0000] {standard_task_runner.py:105} INFO - Job 127: Subtask ingest_financial_reports_task
+[2024-11-19T05:09:19.709+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_financial_reports.ingest_financial_reports_task manual__2024-11-19T05:09:02.663672+00:00 [running]> on host 7da4b16cbed4
+[2024-11-19T05:09:19.842+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETL_financial_reports' AIRFLOW_CTX_TASK_ID='ingest_financial_reports_task' AIRFLOW_CTX_EXECUTION_DATE='2024-11-19T05:09:02.663672+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-19T05:09:02.663672+00:00'
+[2024-11-19T05:09:19.844+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-19T05:09:20.386+0000] {logging_mixin.py:190} INFO - Processing file: financial_reports/processed_CDBG-DR-Grants-Financial-Report-2023-05.csv
+[2024-11-19T05:09:20.926+0000] {logging_mixin.py:190} INFO - Error: invalid input syntax for type numeric: " 1.950.362"
+LINE 1: ...449536.0, 2008, 164, 95.0, 88.5, 'Slow Spender ', ' 1.950.36...
+                                                             ^
+[2024-11-19T05:09:20.929+0000] {logging_mixin.py:190} INFO - Processing file: financial_reports/processed_CDBG-DR-Grants-Financial-Report-2023-07.csv
+[2024-11-19T05:09:21.724+0000] {logging_mixin.py:190} INFO - Error: invalid input syntax for type numeric: " 1.950.362"
+LINE 1: ...449536.0, 2008, 166, 95.0, 88.5, 'Slow Spender ', ' 1.950.36...
+                                                             ^
+[2024-11-19T05:09:21.727+0000] {logging_mixin.py:190} INFO - Processing file: financial_reports/processed_CDBG-DR-Grants-Financial-Report-2023-08.csv
+[2024-11-19T05:09:22.306+0000] {logging_mixin.py:190} INFO - Error: invalid input syntax for type numeric: " 1.950.362"
+LINE 1: ...449536.0, 2008, 167, 95.0, 88.5, 'Slow Spender ', ' 1.950.36...
+                                                             ^
+[2024-11-19T05:09:22.307+0000] {logging_mixin.py:190} INFO - Processing file: financial_reports/processed_CDBG-DR-Grants-Financial-Report-2023-09.csv
+[2024-11-19T05:09:22.811+0000] {logging_mixin.py:190} INFO - Error: invalid input syntax for type numeric: " 1.950.362"
+LINE 1: ...449536.0, 2008, 168, 95.0, 88.5, 'Slow Spender ', ' 1.950.36...
+                                                             ^
+[2024-11-19T05:09:22.812+0000] {logging_mixin.py:190} INFO - Processing file: financial_reports/processed_CDBG-DR-Grants-Financial-Report-2023-10.csv
+[2024-11-19T05:09:23.297+0000] {logging_mixin.py:190} INFO - Error: invalid input syntax for type numeric: " 1.946.862"
+LINE 1: ...446036.0, 2008, 169, 95.0, 88.5, 'Slow Spender ', ' 1.946.86...
+                                                             ^
+[2024-11-19T05:09:23.298+0000] {logging_mixin.py:190} INFO - Processing file: financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_10_2024.csv
+[2024-11-19T05:09:23.829+0000] {logging_mixin.py:190} INFO - Data successfully written to table grantfinancialreports.
+[2024-11-19T05:09:24.061+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_10_2024.csv to s3://project-processed-data/archived/financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_10_2024.csv
+[2024-11-19T05:09:24.063+0000] {logging_mixin.py:190} INFO - Processing file: financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_11_2024.csv
+[2024-11-19T05:09:24.587+0000] {logging_mixin.py:190} INFO - Data successfully written to table grantfinancialreports.
+[2024-11-19T05:09:25.018+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_11_2024.csv to s3://project-processed-data/archived/financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_11_2024.csv
+[2024-11-19T05:09:25.019+0000] {logging_mixin.py:190} INFO - Processing file: financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_5_2024.csv
+[2024-11-19T05:09:25.537+0000] {logging_mixin.py:190} INFO - Data successfully written to table grantfinancialreports.
+[2024-11-19T05:09:25.790+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_5_2024.csv to s3://project-processed-data/archived/financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_5_2024.csv
+[2024-11-19T05:09:25.792+0000] {logging_mixin.py:190} INFO - Processing file: financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_6_2024.csv
+[2024-11-19T05:09:26.265+0000] {logging_mixin.py:190} INFO - Data successfully written to table grantfinancialreports.
+[2024-11-19T05:09:26.512+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_6_2024.csv to s3://project-processed-data/archived/financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_6_2024.csv
+[2024-11-19T05:09:26.515+0000] {logging_mixin.py:190} INFO - Processing file: financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_7_2024.csv
+[2024-11-19T05:09:27.002+0000] {logging_mixin.py:190} INFO - Data successfully written to table grantfinancialreports.
+[2024-11-19T05:09:27.254+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_7_2024.csv to s3://project-processed-data/archived/financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_7_2024.csv
+[2024-11-19T05:09:27.260+0000] {logging_mixin.py:190} INFO - Processing file: financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_8_2024.csv
+[2024-11-19T05:09:27.971+0000] {logging_mixin.py:190} INFO - Data successfully written to table grantfinancialreports.
+[2024-11-19T05:09:28.188+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_8_2024.csv to s3://project-processed-data/archived/financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_8_2024.csv
+[2024-11-19T05:09:28.191+0000] {logging_mixin.py:190} INFO - Processing file: financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_9_2024.csv
+[2024-11-19T05:09:28.674+0000] {logging_mixin.py:190} INFO - Data successfully written to table grantfinancialreports.
+[2024-11-19T05:09:28.903+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_9_2024.csv to s3://project-processed-data/archived/financial_reports/processed_CDBG_DR_Grant_Expenditure_Report_9_2024.csv
+[2024-11-19T05:09:28.906+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-19T05:09:28.917+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-19T05:09:28.918+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_financial_reports, task_id=ingest_financial_reports_task, run_id=manual__2024-11-19T05:09:02.663672+00:00, execution_date=20241119T050902, start_date=20241119T050919, end_date=20241119T050928
+[2024-11-19T05:09:28.952+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-19T05:09:28.969+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-19T05:09:28.972+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

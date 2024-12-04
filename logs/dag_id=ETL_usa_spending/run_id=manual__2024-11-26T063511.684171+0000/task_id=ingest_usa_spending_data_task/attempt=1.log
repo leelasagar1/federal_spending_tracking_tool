@@ -1,0 +1,51 @@
+[2024-11-26T06:35:27.446+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-26T06:35:27.463+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_usa_spending.ingest_usa_spending_data_task manual__2024-11-26T06:35:11.684171+00:00 [queued]>
+[2024-11-26T06:35:27.473+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_usa_spending.ingest_usa_spending_data_task manual__2024-11-26T06:35:11.684171+00:00 [queued]>
+[2024-11-26T06:35:27.474+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-26T06:35:27.490+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): ingest_usa_spending_data_task> on 2024-11-26 06:35:11.684171+00:00
+[2024-11-26T06:35:27.500+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=14290) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-26T06:35:27.502+0000] {standard_task_runner.py:72} INFO - Started process 14292 to run task
+[2024-11-26T06:35:27.500+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_usa_spending', 'ingest_usa_spending_data_task', 'manual__2024-11-26T06:35:11.684171+00:00', '--job-id', '392', '--raw', '--subdir', 'DAGS_FOLDER/project_dag.py', '--cfg-path', '/tmp/tmpcsq9m5uw']
+[2024-11-26T06:35:27.503+0000] {standard_task_runner.py:105} INFO - Job 392: Subtask ingest_usa_spending_data_task
+[2024-11-26T06:35:27.553+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_usa_spending.ingest_usa_spending_data_task manual__2024-11-26T06:35:11.684171+00:00 [running]> on host 6a246d8d590f
+[2024-11-26T06:35:27.828+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETL_usa_spending' AIRFLOW_CTX_TASK_ID='ingest_usa_spending_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-11-26T06:35:11.684171+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-26T06:35:11.684171+00:00'
+[2024-11-26T06:35:27.830+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-26T06:35:28.198+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into states
+[2024-11-26T06:35:28.540+0000] {logging_mixin.py:190} INFO - No new data to ingest for states
+[2024-11-26T06:35:28.790+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/usa_spending_data/states_20241126_063519.csv to s3://project-processed-data/archived/usa_spending_data/states_20241126_063519.csv
+[2024-11-26T06:35:28.968+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into cfdaprograms
+[2024-11-26T06:35:29.253+0000] {logging_mixin.py:190} INFO - No new data to ingest for cfdaprograms
+[2024-11-26T06:35:29.505+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/usa_spending_data/cfda_20241126_063519.csv to s3://project-processed-data/archived/usa_spending_data/cfda_20241126_063519.csv
+[2024-11-26T06:35:29.679+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into recipients
+[2024-11-26T06:35:30.008+0000] {logging_mixin.py:190} INFO - Ingesting new data into recipients
+[2024-11-26T06:35:37.529+0000] {logging_mixin.py:190} INFO - Data successfully written to table recipients.
+[2024-11-26T06:35:37.776+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/usa_spending_data/recipients_20241126_063519.csv to s3://project-processed-data/archived/usa_spending_data/recipients_20241126_063519.csv
+[2024-11-26T06:35:37.942+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into subagency
+[2024-11-26T06:35:38.243+0000] {logging_mixin.py:190} INFO - No new data to ingest for subagency
+[2024-11-26T06:35:38.451+0000] {logging_mixin.py:190} INFO - File moved from s3://project-processed-data/usa_spending_data/sub_agency_20241126_063519.csv to s3://project-processed-data/archived/usa_spending_data/sub_agency_20241126_063519.csv
+[2024-11-26T06:35:38.771+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into grants
+[2024-11-26T06:35:39.096+0000] {logging_mixin.py:190} INFO - Ingesting new data into grants
+[2024-11-26T06:35:39.379+0000] {logging_mixin.py:190} INFO - Error: insert or update on table "grants" violates foreign key constraint "grants_awarding_agency_code_fkey"
+DETAIL:  Key (awarding_agency_code)=(86) is not present in table "agencies".
+[2024-11-26T06:35:39.809+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into funding
+[2024-11-26T06:35:40.084+0000] {logging_mixin.py:190} INFO - Ingesting new data into funding
+[2024-11-26T06:35:40.355+0000] {logging_mixin.py:190} INFO - Error: insert or update on table "funding" violates foreign key constraint "funding_grant_id_fkey"
+DETAIL:  Key (grant_id)=(B-18-DP-72-0002) is not present in table "grants".
+[2024-11-26T06:35:40.667+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into federalawards
+[2024-11-26T06:35:40.970+0000] {logging_mixin.py:190} INFO - Ingesting new data into federalawards
+[2024-11-26T06:35:41.240+0000] {logging_mixin.py:190} INFO - Error: insert or update on table "federalawards" violates foreign key constraint "federalawards_grant_id_fkey"
+DETAIL:  Key (grant_id)=(B-18-DP-72-0002) is not present in table "grants".
+[2024-11-26T06:35:41.617+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into transactions
+[2024-11-26T06:35:41.904+0000] {logging_mixin.py:190} INFO - Ingesting new data into transactions
+[2024-11-26T06:35:42.211+0000] {logging_mixin.py:190} INFO - Error: insert or update on table "transactions" violates foreign key constraint "transactions_grant_id_fkey"
+DETAIL:  Key (grant_id)=(B-18-DP-72-0002) is not present in table "grants".
+[2024-11-26T06:35:42.519+0000] {logging_mixin.py:190} INFO - Checking for new data to ingest into subawards
+[2024-11-26T06:35:42.823+0000] {logging_mixin.py:190} INFO - Ingesting new data into subawards
+[2024-11-26T06:35:43.148+0000] {logging_mixin.py:190} INFO - Error: insert or update on table "subawards" violates foreign key constraint "subawards_grant_id_fkey"
+DETAIL:  Key (grant_id)=(B-18-DP-72-0002) is not present in table "grants".
+[2024-11-26T06:35:43.151+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-26T06:35:43.184+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-26T06:35:43.187+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_usa_spending, task_id=ingest_usa_spending_data_task, run_id=manual__2024-11-26T06:35:11.684171+00:00, execution_date=20241126T063511, start_date=20241126T063527, end_date=20241126T063543
+[2024-11-26T06:35:43.278+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-26T06:35:43.295+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-26T06:35:43.298+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

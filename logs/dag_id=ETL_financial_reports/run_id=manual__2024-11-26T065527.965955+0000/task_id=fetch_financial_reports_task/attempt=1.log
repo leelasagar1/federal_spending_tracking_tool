@@ -1,0 +1,90 @@
+[2024-11-26T06:55:30.611+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-26T06:55:30.634+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_financial_reports.fetch_financial_reports_task manual__2024-11-26T06:55:27.965955+00:00 [queued]>
+[2024-11-26T06:55:30.647+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_financial_reports.fetch_financial_reports_task manual__2024-11-26T06:55:27.965955+00:00 [queued]>
+[2024-11-26T06:55:30.648+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-26T06:55:30.673+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_financial_reports_task> on 2024-11-26 06:55:27.965955+00:00
+[2024-11-26T06:55:30.685+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=14824) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-26T06:55:30.684+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_financial_reports', 'fetch_financial_reports_task', 'manual__2024-11-26T06:55:27.965955+00:00', '--job-id', '408', '--raw', '--subdir', 'DAGS_FOLDER/project_dag.py', '--cfg-path', '/tmp/tmpxsnl3mq0']
+[2024-11-26T06:55:30.687+0000] {standard_task_runner.py:72} INFO - Started process 14826 to run task
+[2024-11-26T06:55:30.688+0000] {standard_task_runner.py:105} INFO - Job 408: Subtask fetch_financial_reports_task
+[2024-11-26T06:55:30.765+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_financial_reports.fetch_financial_reports_task manual__2024-11-26T06:55:27.965955+00:00 [running]> on host 6a246d8d590f
+[2024-11-26T06:55:31.216+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETL_financial_reports' AIRFLOW_CTX_TASK_ID='fetch_financial_reports_task' AIRFLOW_CTX_EXECUTION_DATE='2024-11-26T06:55:27.965955+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-26T06:55:27.965955+00:00'
+[2024-11-26T06:55:31.219+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-26T06:55:32.139+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_Expenditure_Report_11_2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:32.235+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_Expenditure_Report_10_2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:32.322+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_Expenditure_Report_9_2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:32.414+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_Expenditure_Report_8_2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:32.502+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_Expenditure_Report_7_2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:32.584+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_Expenditure_Report_6_2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:32.665+0000] {logging_mixin.py:190} INFO - File CDBG_DR_Grant_Expenditure_Report_5_2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:32.752+0000] {logging_mixin.py:190} INFO - File CDBG-DR_Grant_Expenditure_Report-4-1-2024.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:32.835+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-Expenditure-Report-2024-03.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:32.925+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-Expenditure-Report-2024-02.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:33.016+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-Expenditure-Report-2024-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:33.095+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grant-Expenditure-Report-2023-12.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:33.178+0000] {logging_mixin.py:190} INFO - File CDBG-DR_Grant_Expenditure_Report-11-1-2023.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:33.253+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2023-10.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:33.336+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2023-09.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:33.418+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2023-08.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:33.497+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2023-07.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:33.587+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2023-06.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:33.673+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2023-05.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:33.757+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2023-04.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:33.854+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2023-03.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:33.935+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2023-02.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:34.019+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2022-12.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:34.100+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2022-12.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:34.181+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2022-11.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:34.268+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2022-10.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:34.351+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2022-9.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:34.440+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2022-8.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:34.523+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2022-7.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:34.608+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2022-6.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:34.701+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2022-5.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:34.781+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Grants-Financial-Report-2022-4.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:34.868+0000] {logging_mixin.py:190} INFO - File CDBG%20DR%20Grants%20Financial%20Report%202022%203%201.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:34.953+0000] {logging_mixin.py:190} INFO - File CDBG-DR_Grants_Financial_Report_2022-02.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:35.039+0000] {logging_mixin.py:190} INFO - File CDBG-DR_Grants_Financial_Report_2022-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:35.123+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2020-03-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:35.202+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2020-02-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:35.295+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2020-01-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:35.383+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2019-12-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:35.466+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2019-11-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:35.546+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2019-10-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:35.627+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2019-09-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:35.710+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2019-08-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:35.789+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2019-07-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:35.872+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2019-06-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:35.958+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2019-05-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:36.041+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2019-04-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:36.125+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2019-03-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:36.213+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2019-02-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:36.296+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2019-01-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:36.584+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2018-12-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:36.663+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2018-11-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:36.761+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2018-10-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:36.841+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2018-09-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:36.945+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2018-08-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:37.046+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2018-07-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:37.131+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2018-06-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:37.232+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2018-05-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:37.312+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2018-04-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:37.395+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2018-03-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:37.473+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2018-02-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:37.553+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2018-01-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:37.636+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2017-12-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:37.716+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2017-11-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:37.802+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2017-10-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:37.887+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2017-09-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:37.964+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2017-08-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:38.050+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2017-05-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:38.130+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2017-04-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:38.213+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2017-03-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:38.301+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2017-02-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:38.382+0000] {logging_mixin.py:190} INFO - File CDBG-DR-Financial-Report-2017-01-01.pdf already exists in S3. Skipping upload.
+[2024-11-26T06:55:38.384+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-26T06:55:38.397+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-26T06:55:38.398+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_financial_reports, task_id=fetch_financial_reports_task, run_id=manual__2024-11-26T06:55:27.965955+00:00, execution_date=20241126T065527, start_date=20241126T065530, end_date=20241126T065538
+[2024-11-26T06:55:38.449+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-26T06:55:38.475+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-26T06:55:38.478+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

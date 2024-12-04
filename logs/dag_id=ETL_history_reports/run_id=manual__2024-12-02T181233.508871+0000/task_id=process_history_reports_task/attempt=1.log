@@ -1,0 +1,25 @@
+[2024-12-02T18:12:41.866+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-02T18:12:41.887+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_history_reports.process_history_reports_task manual__2024-12-02T18:12:33.508871+00:00 [queued]>
+[2024-12-02T18:12:41.899+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_history_reports.process_history_reports_task manual__2024-12-02T18:12:33.508871+00:00 [queued]>
+[2024-12-02T18:12:41.900+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-02T18:12:41.921+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): process_history_reports_task> on 2024-12-02 18:12:33.508871+00:00
+[2024-12-02T18:12:41.932+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_history_reports', 'process_history_reports_task', 'manual__2024-12-02T18:12:33.508871+00:00', '--job-id', '503', '--raw', '--subdir', 'DAGS_FOLDER/history_reports_dag.py', '--cfg-path', '/tmp/tmppr_1wf5h']
+[2024-12-02T18:12:41.934+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=62699) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-12-02T18:12:41.936+0000] {standard_task_runner.py:105} INFO - Job 503: Subtask process_history_reports_task
+[2024-12-02T18:12:41.937+0000] {standard_task_runner.py:72} INFO - Started process 62705 to run task
+[2024-12-02T18:12:41.998+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_history_reports.process_history_reports_task manual__2024-12-02T18:12:33.508871+00:00 [running]> on host 6a246d8d590f
+[2024-12-02T18:12:42.337+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETL_history_reports' AIRFLOW_CTX_TASK_ID='process_history_reports_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-02T18:12:33.508871+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-02T18:12:33.508871+00:00'
+[2024-12-02T18:12:42.339+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-02T18:12:46.677+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/history_reports/disaster_events_10_1_2024.csv
+[2024-12-02T18:12:46.918+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/history_reports/grantee_10_1_2024.csv
+[2024-12-02T18:12:47.153+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/history_reports/grant_10_1_2024.csv
+[2024-12-02T18:12:47.355+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/history_reports/public_law_numbers_10_1_2024.csv
+[2024-12-02T18:12:47.562+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/history_reports/disaster_public_law_10_1_2024.csv
+[2024-12-02T18:12:47.858+0000] {logging_mixin.py:190} INFO - File moved from s3://project-raw-data-files/history_reports/CDBG_DR_Grant_History_10_1_2024.pdf to s3://project-raw-data-files/archived/history_reports/CDBG_DR_Grant_History_10_1_2024.pdf
+[2024-12-02T18:12:47.860+0000] {logging_mixin.py:190} INFO - Processed file saved to S3: s3://project-processed-data/CDBG_DR_Grant_History_10_1_2024.pdf
+[2024-12-02T18:12:47.862+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-02T18:12:47.871+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-02T18:12:47.872+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_history_reports, task_id=process_history_reports_task, run_id=manual__2024-12-02T18:12:33.508871+00:00, execution_date=20241202T181233, start_date=20241202T181241, end_date=20241202T181247
+[2024-12-02T18:12:47.938+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-02T18:12:47.957+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-02T18:12:47.961+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

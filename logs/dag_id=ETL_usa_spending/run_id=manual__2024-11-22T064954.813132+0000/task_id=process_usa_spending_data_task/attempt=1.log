@@ -1,0 +1,39 @@
+[2024-11-22T06:49:58.217+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-22T06:49:58.282+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_usa_spending.process_usa_spending_data_task manual__2024-11-22T06:49:54.813132+00:00 [queued]>
+[2024-11-22T06:49:58.312+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_usa_spending.process_usa_spending_data_task manual__2024-11-22T06:49:54.813132+00:00 [queued]>
+[2024-11-22T06:49:58.313+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-22T06:49:58.377+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): process_usa_spending_data_task> on 2024-11-22 06:49:54.813132+00:00
+[2024-11-22T06:49:58.410+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_usa_spending', 'process_usa_spending_data_task', 'manual__2024-11-22T06:49:54.813132+00:00', '--job-id', '173', '--raw', '--subdir', 'DAGS_FOLDER/project_dag.py', '--cfg-path', '/tmp/tmpjlnhs3fm']
+[2024-11-22T06:49:58.411+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=73223) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-22T06:49:58.416+0000] {standard_task_runner.py:105} INFO - Job 173: Subtask process_usa_spending_data_task
+[2024-11-22T06:49:58.417+0000] {standard_task_runner.py:72} INFO - Started process 73225 to run task
+[2024-11-22T06:49:58.529+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_usa_spending.process_usa_spending_data_task manual__2024-11-22T06:49:54.813132+00:00 [running]> on host 7da4b16cbed4
+[2024-11-22T06:49:58.897+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETL_usa_spending' AIRFLOW_CTX_TASK_ID='process_usa_spending_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-11-22T06:49:54.813132+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-22T06:49:54.813132+00:00'
+[2024-11-22T06:49:58.905+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-22T06:49:59.515+0000] {logging_mixin.py:190} INFO - Processing file: df_spending_by_award_11_17_2024.csv
+[2024-11-22T06:50:00.158+0000] {logging_mixin.py:190} INFO - Processing file: federal_account_funding_df_2024-11-17.csv
+[2024-11-22T06:50:00.691+0000] {logging_mixin.py:190} INFO - Processing file: other_variables_11_17_2024.csv
+[2024-11-22T06:50:01.021+0000] {logging_mixin.py:190} INFO - Processing file: sub_award_df_2024-11-17.csv
+[2024-11-22T06:50:01.360+0000] {logging_mixin.py:190} INFO - Processing file: transactions_df_2024-11-17.csv
+[2024-11-22T06:50:03.915+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/usa_spending_data/states_20241122_065003.csv
+[2024-11-22T06:50:04.168+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/usa_spending_data/cfda_20241122_065003.csv
+[2024-11-22T06:50:04.383+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/usa_spending_data/agency_20241122_065003.csv
+[2024-11-22T06:50:04.616+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/usa_spending_data/sub_agency_20241122_065003.csv
+[2024-11-22T06:50:04.930+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/usa_spending_data/recipients_20241122_065003.csv
+[2024-11-22T06:50:05.408+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/usa_spending_data/grants_20241122_065003.csv
+[2024-11-22T06:50:06.169+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/usa_spending_data/federal_awards_20241122_065003.csv
+[2024-11-22T06:50:07.477+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/usa_spending_data/funding_20241122_065003.csv
+[2024-11-22T06:50:07.880+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/usa_spending_data/transactions_20241122_065003.csv
+[2024-11-22T06:50:08.240+0000] {logging_mixin.py:190} INFO - File saved to S3: s3://project-processed-data/usa_spending_data/sub_awards_20241122_065003.csv
+[2024-11-22T06:50:08.553+0000] {logging_mixin.py:190} INFO - File moved from s3://project-raw-data-files/usa_spending_data/ to s3://project-raw-data-files/archived/usa_spending_data/
+[2024-11-22T06:50:08.839+0000] {logging_mixin.py:190} INFO - File moved from s3://project-raw-data-files/usa_spending_data/df_spending_by_award_11_17_2024.csv to s3://project-raw-data-files/archived/usa_spending_data/df_spending_by_award_11_17_2024.csv
+[2024-11-22T06:50:09.231+0000] {logging_mixin.py:190} INFO - File moved from s3://project-raw-data-files/usa_spending_data/federal_account_funding_df_2024-11-17.csv to s3://project-raw-data-files/archived/usa_spending_data/federal_account_funding_df_2024-11-17.csv
+[2024-11-22T06:50:09.519+0000] {logging_mixin.py:190} INFO - File moved from s3://project-raw-data-files/usa_spending_data/other_variables_11_17_2024.csv to s3://project-raw-data-files/archived/usa_spending_data/other_variables_11_17_2024.csv
+[2024-11-22T06:50:09.801+0000] {logging_mixin.py:190} INFO - File moved from s3://project-raw-data-files/usa_spending_data/sub_award_df_2024-11-17.csv to s3://project-raw-data-files/archived/usa_spending_data/sub_award_df_2024-11-17.csv
+[2024-11-22T06:50:10.071+0000] {logging_mixin.py:190} INFO - File moved from s3://project-raw-data-files/usa_spending_data/transactions_df_2024-11-17.csv to s3://project-raw-data-files/archived/usa_spending_data/transactions_df_2024-11-17.csv
+[2024-11-22T06:50:10.078+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-22T06:50:10.091+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-22T06:50:10.092+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_usa_spending, task_id=process_usa_spending_data_task, run_id=manual__2024-11-22T06:49:54.813132+00:00, execution_date=20241122T064954, start_date=20241122T064958, end_date=20241122T065010
+[2024-11-22T06:50:10.159+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-22T06:50:10.186+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-22T06:50:10.189+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
