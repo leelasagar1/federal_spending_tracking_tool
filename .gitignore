@@ -1,6 +1,6 @@
 # Python Bytecode
 *.py[cod]
-**/__pycache__/
+git rm -r --cached .__pycache__/
 
 # Environment files
 .env
@@ -68,5 +68,6 @@ coverage/
 # airflow Docker compose generated folders
 plugins/
 
-# Ignore sensitive data
-**/*.ipynb
+
+# Ignore all .ipynb files
+*.ipynb
