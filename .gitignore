@@ -69,4 +69,4 @@ coverage/
 plugins/
 
 # Ignore sensitive data
-dags/data_ingestion/data_ingestion_test.ipynb
+*.ipynb
