@@ -1,0 +1,72 @@
+# Python Bytecode
+*.py[cod]
+__pycache__/
+
+# Environment files
+.env
+*.env
+*.local
+
+# Virtual Environments
+venv/
+env/
+.airflow_venv/
+
+# Airflow Configurations and Logs
+airflow.cfg
+unittests.cfg
+*.log
+logs/
+**/logs/
+
+# SQLite database (local metadata database for testing)
+airflow.db
+airflow.db-journal
+
+# Airflow Variables, Connections, Sensitive Info
+variables.json
+connections.json
+secrets/
+
+# Airflow PIDs
+*.pid
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.backup
+
+# Docker
+.env.docker
+
+# Credentials and Keys
+*.key
+*.pem
+*.crt
+*.p12
+*.cert
+
+# OS generated files
+*.swp
+*.swo
+
+# Logs and Reports
+*.log
+*.out
+*.err
+coverage/
+
+# airflow Docker compose generated folders
+plugins/
+
+# Ignore sensitive data
+

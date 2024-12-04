@@ -1,13 +1,25 @@
 import boto3
 import pandas as pd
+import json
 from io import StringIO
 
+
+# Function to load AWS configuration from JSON file
+def load_aws_config(config_file):
+    with open(config_file, 'r') as file:
+        return json.load(file)
+
+# Function to get AWS client using loaded configuration
 def get_client(service):
+
+    # Get AWS configuration
+    aws_config = load_aws_config('config/aws_config.json')
+
     return boto3.client(
         service,
-        region_name='us-east-2',
-        aws_access_key_id='AKIA4SDNVR3XMKN34QEB',
-        aws_secret_access_key='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'
+        region_name=aws_config['region_name'],
+        aws_access_key_id=aws_config['aws_access_key_id'],
+        aws_secret_access_key=aws_config['aws_secret_access_key']
     )
 
 
