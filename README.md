@@ -17,7 +17,7 @@ The system employs AWS services for data storage and processing, Apache Airflow 
 
 ## 🏢 **System Architecture**
 
-![Architecture Diagram](federal_spending_tracking_tool/images/project_architecture_diagram.png)
+![Architecture Diagram](images/project_architecture_diagram.png)
 
 *This diagram provides an overview of the system architecture, showcasing the flow of data from extraction to storage in PostgreSQL.*
 
@@ -25,7 +25,7 @@ The system employs AWS services for data storage and processing, Apache Airflow 
 
 ## 🔋 **Data Schema Overview**
 
-![Data Schema Diagram](federal_spending_tracking_tool/images/Project_database_schema.png)
+![Data Schema Diagram](images/Project_database_schema.png)
 
 *This diagram outlines the relational schema used in the AWS RDS PostgreSQL database, including tables for financial reports, historical data, and more.*
 
