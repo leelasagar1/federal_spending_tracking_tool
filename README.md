@@ -13,6 +13,23 @@ Effortlessly manage complex ETL workflows with this project designed to extract,
 
 ---
 
+
+## 🏢 **System Architecture**
+
+![Architecture Diagram](federal_spending_tracking_tool/images/project_architecture_diagram.png)
+
+*This diagram provides an overview of the system architecture, showcasing the flow of data from extraction to storage in PostgreSQL.*
+
+---
+
+## 🔋 **Data Schema Overview**
+
+![Data Schema Diagram](federal_spending_tracking_tool/images/Project_database_schema.png)
+
+*This diagram outlines the relational schema used in the AWS RDS PostgreSQL database, including tables for financial reports, historical data, and more.*
+
+---
+
 ## 🗂️ **Project Overview**
 
 ### **Pipeline 1: Financial Reports Extraction**

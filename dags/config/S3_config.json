@@ -1,0 +1,4 @@
+{
+"raw_bucket": "project-processed-data",
+"processed_bucket": "project-raw-data-files"
+}
