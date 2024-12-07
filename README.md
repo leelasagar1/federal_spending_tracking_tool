@@ -1,6 +1,8 @@
 # ETL Pipelines Using Apache Airflow 🚀
 
-Effortlessly manage complex ETL workflows with this project designed to extract, transform, and load data from multiple sources into an AWS RDS PostgreSQL database. Leveraging the power of **Apache Airflow** for orchestration, this system ensures smooth data flow from raw data ingestion to final storage. AWS services like S3 and Textract bring scalability and automation to the pipeline, making it reliable and efficient.
+The Federal Spending Tracker Tool is designed to automate the extraction, transformation, and loading (ETL) of data related to federal spending, with a focus on housing programs in Puerto Rico. This document provides an overview of the tool's architecture, detailed procedural guidelines, and instructions for running the ETL pipelines.
+The system employs AWS services for data storage and processing, Apache Airflow for workflow orchestration, and AWS RDS PostgreSQL for data storage. The pipelines are intended to handle data from multiple sources, including PDFs, APIs, and manually uploaded documents.
+
 
 ---
 
@@ -12,7 +14,6 @@ Effortlessly manage complex ETL workflows with this project designed to extract,
 - **Comprehensive Data Processing:** Transform raw data into a structured format ready for analysis.
 
 ---
-
 
 ## 🏢 **System Architecture**
 
@@ -80,15 +81,44 @@ Effortlessly manage complex ETL workflows with this project designed to extract,
 2. Configure AWS credentials: Update the config/aws_config.json file with your AWS details:
    ```bash
       {
-         "aws_access_key_id": "ADD AWS ACCESS KEY",
-         "aws_secret_access_key": "ADD AWS SECRET ACCESS KEY",
-         "region_name": "ADD REGION"
+         "aws_access_key_id": "REPLACE WITH AWS ACCESS KEY",
+         "aws_secret_access_key": "REPLACE WITH AWS SECRET ACCESS KEY",
+         "region_name": "REPLACE WITH AWS REGION"
       }
    ```
-3. Set up Apache Airflow using Docker Compose:
-   ```bash
-   docker-compose up
+3. Set Up S3 Buckets in AWS
+
+   Create two S3 buckets: one for raw data and one for processed data.
+   
+   Update the S3 configuration file (`config/S3_config.json`) with bucket details:
+   
+   ```json
+   {
+     "raw_bucket": "REPLACE WITH RAW BUCKET NAME",
+     "processed_bucket": "REPLACE WITH PROCESSED BUCKET NAME"
+   }
    ```
+4. Set Up Apache Airflow Using Docker Compose
+
+   Run the following commands to set up Apache Airflow:
+
+   a. **First-time setup commands for Apache Airflow:**
+   
+      ```bash
+      docker-compose up airflow-init
+      ```
+   
+   b. **Start all services:**
+   
+      ```bash
+      docker-compose up -d
+      ```
+   
+   c. **To shut down the Airflow server and stop all containers:**
+   
+      ```bash
+      docker-compose down
+      ```
 
 
 ### Running the Pipelines
