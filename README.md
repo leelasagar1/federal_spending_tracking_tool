@@ -146,6 +146,9 @@ The system employs AWS services for data storage and processing, Apache Airflow 
       ```bash
       docker-compose down
       ```
+### Running the Pipelines
+- To trigger the pipelines manually, go to the Airflow web UI (usually accessible at `http://localhost:8080`) and enable the DAGs as needed.
+
 
 ## 📂 **Project Structure**
 ```
@@ -190,8 +193,6 @@ code
     └── docker-compose.yaml
 ```
 
-### Running the Pipelines
-- To trigger the pipelines manually, go to the Airflow web UI (usually accessible at `http://localhost:8080`) and enable the DAGs as needed.
 
 ## Data Flow
 1. **Extraction**: Raw data is fetched from web pages, APIs, or manually uploaded PDFs.
