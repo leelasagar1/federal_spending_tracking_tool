@@ -1,4 +1,4 @@
-# ETL Pipelines Using Apache Airflow 🚀
+# Federal Spending Tracker Tool 🚀
 
 The Federal Spending Tracker Tool is designed to automate the extraction, transformation, and loading (ETL) of data related to federal spending, with a focus on housing programs in Puerto Rico. This document provides an overview of the tool's architecture, detailed procedural guidelines, and instructions for running the ETL pipelines.
 The system employs AWS services for data storage and processing, Apache Airflow for workflow orchestration, and AWS RDS PostgreSQL for data storage. The pipelines are intended to handle data from multiple sources, including PDFs, APIs, and manually uploaded documents.
@@ -62,6 +62,7 @@ The system employs AWS services for data storage and processing, Apache Airflow 
 - **PostgreSQL**: Reliable storage for final processed data.
 - **Docker Compose**: Simplifies deployment and environment setup.
 - **Python**: Powers the scripts for data extraction, transformation, and ingestion.
+- **PowerBI**: Intuitive and insightful analytical dashboards for clients.
 
 ---
 
