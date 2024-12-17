@@ -1,6 +1,5 @@
 {
-    "aws_access_key_id": "AKIA4SDNVR3XMKN34QEB",
-    "aws_secret_access_key": "CLRyqNIyywxXfu7Eu+HELSImJzMloaagcBz1RNiY",
-    "region_name": "us-east-2"
-
-  }
+  "aws_access_key_id": "REPLACE WITH AWS ACCESS KEY",
+  "aws_secret_access_key": "REPLACE WITH AWS SECRET ACCESS KEY",
+  "region_name": "REPLACE WITH AWS REGION"
+}
