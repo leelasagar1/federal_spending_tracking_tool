@@ -98,6 +98,33 @@ The system employs AWS services for data storage and processing, Apache Airflow 
      "processed_bucket": "REPLACE WITH PROCESSED BUCKET NAME"
    }
    ```
+4. Set Up PostgreSQL in AWS RDS
+
+   1. **Create a PostgreSQL instance in AWS RDS:**
+      - Go to **RDS** > **Create Database** in AWS Console.
+      - Select **PostgreSQL** as the engine.
+      - Configure:
+      - **Engine Version**: PostgreSQL 14+
+      - **Username**: `admin` (or your choice)
+      - **Database Name**: `federal_spending_db`
+      - Enable Public Access (for local testing).
+      - Save the **Endpoint**, **Username**, and **Password**.
+
+   2. **Create the database schema**:
+      Connect to your RDS instance:
+      ```bash
+      psql -h <RDS_ENDPOINT> -U <USERNAME> -d postgres
+      ```
+      Create the database:
+      ```sql
+      CREATE DATABASE federal_spending_db;
+      ```
+
+   3. **Run the Table Creation Script**:
+      Use the SQL script in the `db_queries` folder to create tables:
+      ```bash
+      psql -h <RDS_ENDPOINT> -U <USERNAME> -d federal_spending_db -f db_queries/create_tables.sql
+      ```
 4. Set Up Apache Airflow Using Docker Compose
 
    Run the following commands to set up Apache Airflow:
