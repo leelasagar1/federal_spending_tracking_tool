@@ -1,4 +1,4 @@
-# Federal Spending Tracker Tool 🚀
+# Federal Spending Tracking Tool 🚀
 
 The Federal Spending Tracker Tool is designed to automate the extraction, transformation, and loading (ETL) of data related to federal spending, with a focus on housing programs in Puerto Rico. This document provides an overview of the tool's architecture, detailed procedural guidelines, and instructions for running the ETL pipelines.
 The system employs AWS services for data storage and processing, Apache Airflow for workflow orchestration, and AWS RDS PostgreSQL for data storage. The pipelines are intended to handle data from multiple sources, including PDFs, APIs, and manually uploaded documents.
