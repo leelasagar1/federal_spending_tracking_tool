@@ -153,12 +153,10 @@ The system employs AWS services for data storage and processing, Apache Airflow 
 ## 📂 **Project Structure**
 ```
 code
-├── config                # Configuration files
-│   ├── aws_config.json   # AWS credentials configuration
-│   ├── S3_config.json    # S3 bucket configuration
-│
-├── dags                  # Airflow DAGs and related scripts
-│   ├── config            # DAG-specific configurations
+├── dags                  # Airflow and related scripts
+│   ├── config            # configurations
+│   │   ├── aws_config.json   # AWS credentials configuration
+│   │   └── S3_config.json    # S3 bucket configuration
 │   ├── data_extraction   # Scripts for data extraction
 │   │   ├── usa_spending_extraction_script.py
 │   │   └── web_scraper.py
@@ -177,20 +175,30 @@ code
 │   │   ├── date_extractor.py
 │   │   ├── db_utils.py
 │   │   └── utils.py
-│
+│   ├── financial_reports_dag.py
+│   ├── history_reports_dag.py
+│   ├── quarterly_perfromance_report_dag.py
+│   └── usa_spending_dag.py
+│           
+├── Dockerfile        # Dockerfile for containerization
+└── docker-compose.yaml
+
 ├── db_queries            # SQL scripts for database setup
 │   └── create_tables.sql
-│
+
 ├── documentation         # Project documentation
 │   └── Procedures Document.docx
-│
+
 ├── images                # Architecture and schema diagrams
 │   ├── Project_database_schema.png
 │   └── project_architecture_diagram.png
-│
-└── utils                 # Docker and environment files
-    ├── Dockerfile        # Dockerfile for containerization
-    └── docker-compose.yaml
+
+├── PowerBI dashboard                # Analytical dashboard for clients
+│   ├── Federal Spending Tracker dashboard.pbix
+
+├── .gitignore            # Git ignore file
+└── README.md             # Project README file
+```
 ```
 
 
